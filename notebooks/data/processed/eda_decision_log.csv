@@ -1,0 +1,6 @@
+Issue,Evidence (EDA),Planned action,Parameter / threshold
+Missing target (score),Score missing rate shown in section 2,Drop rows with missing score,score is NA
+Unreliable scores with few votes,High variance in score for low vote buckets (section 3),Filter movies with votes below threshold,TBD after inspecting bucket std
+Skewed numeric features (budget/gross/votes),Heavy-tailed distributions (section 5),Apply log1p transform (and handle zeros),log1p(x)
+Rare categories in high-cardinality features,Many categories appear once / <5 times (section 7),Group rare categories into 'Other' and keep top-N,"min_freq=TBD (e.g., 5)"
+Unrealistic runtime / negative values,"runtime<30, runtime>300, negatives in section 5",Remove impossible values; optionally clip extremes,TBD based on counts

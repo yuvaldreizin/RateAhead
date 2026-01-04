@@ -7,3 +7,4 @@ jupyter
 torch
 tqdm
 pyyaml
+wandb
