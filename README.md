@@ -1,2 +1,14 @@
-# RateAhead
-In this project we are going to build a DNN that predicts a movieâ€™s IMDb score using only its metadata and use it to study which types of features are most related to the score.
+# RateAhead – IMDb Score Prediction
+
+## Goal
+Predict IMDb score using movie metadata and analyze feature-group importance.
+
+## Structure
+- notebooks/ – EDA & analysis
+- src/ – reusable code
+- experiments/ – ablation configs
+
+## Setup
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
