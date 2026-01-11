@@ -3,7 +3,7 @@ Data loading, filtering, and deterministic train/val/test splitting.
 """
 
 from pathlib import Path
-from typing import Dict, Iterable, Tuple
+from typing import Iterable, Tuple
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -18,9 +18,6 @@ except ImportError:
     if str(ROOT) not in sys.path:
         sys.path.append(str(ROOT))
     from data.constants import CAT_COLS, NUMERIC_COLS, TARGET_COL
-
-# Filtering thresholds
-MIN_FREQ = 5
 
 # Resolve paths relative to repo root (two levels above this file).
 BASE_DIR = Path(__file__).resolve().parents[2]
@@ -46,30 +43,10 @@ def apply_filters(df: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
-def fit_category_maps(df: pd.DataFrame, cols: Iterable[str], min_freq: int) -> Dict[str, set]:
-    """Collect categories to keep (freq >= min_freq) per column."""
-    maps = {}
-    for col in cols:
-        counts = df[col].value_counts(dropna=True)
-        keep = counts[counts >= min_freq].index
-        maps[col] = set(keep)
-    return maps
-
-
-def apply_rare_grouping(df: pd.DataFrame, maps: Dict[str, set]) -> pd.DataFrame:
-    """Group rare categories into 'Other'; leave missing as-is for later handling."""
-    out = df.copy()
-    for col, keepers in maps.items():
-        out[col] = out[col].where(out[col].isin(keepers) | out[col].isna(), "Other")
-    return out
-
-
 def filter_and_group(df: pd.DataFrame) -> pd.DataFrame:
-    """Run filters then rare-category grouping."""
+    """Run filters (no rare-category grouping; handled in feature encoding)."""
     filtered = apply_filters(df)
-    cat_maps = fit_category_maps(filtered, CAT_COLS, MIN_FREQ)
-    grouped = apply_rare_grouping(filtered, cat_maps)
-    return grouped
+    return filtered
 
 
 def train_val_test_split(

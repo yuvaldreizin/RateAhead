@@ -1,43 +1,37 @@
-# Process & Decisions (EDA → Torch PoC)
+# Process & Decisions (Baseline Entity-Embedding MLP)
 
 ## Dataset
 - Kaggle Movie Industry dataset at `data/raw/movies.csv` (15 columns, ~7.6k rows).
 
 ## Targets & Scope
 - Target: `gross`, modeled as `log1p(gross)` to stabilize scale.
-- Goal: confirm data is learnable with a small overfitting baseline; not final modeling.
+- Goal: establish a clean baseline with reusable preprocessing and model code.
 
-## Filters (applied in PoC)
-- Drop rows missing: `gross`, `votes`, `runtime`.
-- Votes ≥ 50,000 (remove low-signal titles).
-- Runtime between 30 and 300 minutes (remove implausible lengths).
-- Rare categories (freq < 5) grouped into `Other` for: `rating`, `genre`, `director`, `writer`, `star`, `country`, `company`.
+## Filters / Cleaning
+- Drop rows missing any required columns: `gross`, numerics (`budget`, `votes`, `runtime`, `year`), and all categoricals.
+- No vote/runtime thresholds (removed the ≥50k votes and 30–300 minute bounds).
+- Rare categories handled during encoding (train-derived maps), not in the loader.
 
-## Transforms & Encoding
-- Numerics: `log1p` on `budget` and `votes`; `runtime` kept linear. Medians for missing numerics. Standardize numerics after log1p.
-- Categoricals: frequency encoding (fit on train, applied to val) for the columns above.
+## Transforms & Encoding (`src/data/encode_features.py`)
+- Numerics: `log1p` on `budget` and `votes`; `runtime` and `year` left linear. Standardize numerics after log1p using a train-fitted StandardScaler.
+- Categoricals: fill missing with `"Unknown"`, fit rare maps on train with `min_freq=5`, map rares to `"Other"`, then frequency-encode (fit on train, apply to val/test).
 - Target: `log1p(gross)`.
 
 ## Split
-- Train/val split: 80/20, random seed 42.
+- Train/val/test: 70/15/15, seed 42, shuffle (`src/data/load_data.py`).
+- Processed CSVs saved at `data/processed/all_features/{train,val,test}.csv`.
 
-## Model (tiny MLP)
-- Input: scaled numerics + frequency-encoded categoricals (11 dims after pipeline).
-- Hidden1: Linear 128 → ReLU → Dropout(0.1)
-- Hidden2: Linear 64 → ReLU
-- Output: Linear 1 (predicts `log1p(gross)`)
-- Loss: MSELoss; Optimizer: Adam lr=1e-3; Epochs: 50; Batch: 64; Device: CPU/GPU auto.
-
-## Observed PoC Signal
-- Train/val MSE and MAE decrease and level off (see loss plots in `02_baseline_torch_poc.ipynb`).
-- Example run: val MAE ≈ 0.72 (log space), ≈ $80M absolute.
-- Convergence of the loss curves is the “works as expected” check for now.
+## Model (Entity-Embedding MLP in `notebooks/03_baseline_model.ipynb`)
+- Embeddings: one per categorical feature; dim rule `min(50, round(sqrt(cardinality) + 1))`, vocab from train maps with `Unknown`/`Other`.
+- Numerics: scaled features from `prepare_features` (first columns of X).
+- MLP: hidden sizes `[256, 128, 64]`, ReLU, Dropout(0.1), BatchNorm enabled, output dim 1 (`log1p(gross)`).
+- Loss: MSE; Optimizer: Adam lr=1e-3; Training demo: 10 epochs, batch 256 (CPU by default in notebook).
+- Tracking: train/val loss curves; test loss reported; sample predictions table (pred vs true in log and raw space).
 
 ## How to rerun
 1) Ensure `data/raw/movies.csv` is present.
-2) Create/activate venv; `pip install -r requirements.txt`.
-3) Regenerate splits (70/15/15, seed 42) via `python -m src.data.load_data` or `build_and_save_baseline_splits()`, outputs to `notebooks/data/processed/{train,val,test}.csv`.
-4) Open `notebooks/02_baseline_torch_poc.ipynb` or run models using configs:
-   - `experiments/shared.yaml` (shared encoder)
-   - `experiments/separate.yaml` (separate encoders)
-   - `experiments/pretrain_finetune.yaml` (old→new flow; adjust paths for old/new splits)
+2) Create/activate venv; `pip install -r requirements.txt` (or `environment.yml`).
+3) Regenerate splits via `python -m src.data.load_data` (writes to `data/processed/all_features/`).
+4) Run `notebooks/03_baseline_model.ipynb`:
+   - Uses `enc.prepare_features` for preprocessing.
+   - Trains the entity-embedding MLP, plots train/val loss, evaluates test loss, and shows sample predictions.

@@ -10,7 +10,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 try:
-    from .constants import CAT_COLS, LOG_COLS, NUMERIC_COLS, TARGET_COL
+    from .constants import CAT_COLS, LOG_COLS, MIN_FREQ, NUMERIC_COLS, TARGET_COL
 except ImportError:
     # Allow running as a script: add repo/src to sys.path for absolute import.
     import sys
@@ -18,7 +18,7 @@ except ImportError:
     ROOT = Path(__file__).resolve().parents[1]
     if str(ROOT) not in sys.path:
         sys.path.append(str(ROOT))
-    from data.constants import CAT_COLS, LOG_COLS, NUMERIC_COLS, TARGET_COL
+    from data.constants import CAT_COLS, LOG_COLS, MIN_FREQ, NUMERIC_COLS, TARGET_COL
 
 
 def fit_frequency_encoders(train_df: pd.DataFrame, cols: Iterable[str]) -> Dict[str, pd.Series]:
@@ -59,6 +59,24 @@ def fill_unknown_categories(df: pd.DataFrame, cols: Iterable[str]) -> pd.DataFra
     return out
 
 
+def fit_category_maps(df: pd.DataFrame, cols: Iterable[str], min_freq: int) -> Dict[str, set]:
+    """Collect categories to keep (freq >= min_freq) per column."""
+    maps = {}
+    for col in cols:
+        counts = df[col].value_counts(dropna=True)
+        keep = counts[counts >= min_freq].index
+        maps[col] = set(keep)
+    return maps
+
+
+def apply_rare_grouping(df: pd.DataFrame, maps: Dict[str, set]) -> pd.DataFrame:
+    """Group rare categories into 'Other'; keep missing/unknown tokens as-is if frequent enough."""
+    out = df.copy()
+    for col, keepers in maps.items():
+        out[col] = out[col].where(out[col].isna() | out[col].isin(keepers), "Other")
+    return out
+
+
 def apply_log1p(df: pd.DataFrame, cols: Iterable[str]) -> pd.DataFrame:
     """Apply log1p to selected numeric columns (clip negatives to zero)."""
     out = df.copy()
@@ -89,16 +107,21 @@ def prepare_features(
     Returns:
       X_train, X_val, X_test (np.ndarray)
       y_train, y_val, y_test (np.ndarray)
-      artifacts: dict with encoders and scaler
+      artifacts: dict with encoders, category_maps, and scaler
     """
     train_df = train_df.copy()
     val_df = val_df.copy()
     test_df = test_df.copy()
 
-    # Fill missing categoricals with a dedicated token
+    # Fill missing categoricals with a dedicated token, then group rare categories.
     train_df_cat = fill_unknown_categories(train_df, CAT_COLS)
     val_df_cat = fill_unknown_categories(val_df, CAT_COLS)
     test_df_cat = fill_unknown_categories(test_df, CAT_COLS)
+
+    category_maps = fit_category_maps(train_df_cat, CAT_COLS, MIN_FREQ)
+    train_df_cat = apply_rare_grouping(train_df_cat, category_maps)
+    val_df_cat = apply_rare_grouping(val_df_cat, category_maps)
+    test_df_cat = apply_rare_grouping(test_df_cat, category_maps)
 
     train_num = train_df
     val_num = val_df
@@ -135,6 +158,7 @@ def prepare_features(
 
     artifacts = {
         "encoders": encoders,
+        "category_maps": category_maps,
         "scaler": scaler,
     }
     return (
