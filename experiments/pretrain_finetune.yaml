@@ -1,0 +1,15 @@
+mode: shared  # or 'separate'
+encoder_hidden: [128, 64]
+head_hidden: []
+dropout: 0.1
+pretrain:
+  old_train_path: notebooks/data/processed/train.csv  # replace with old split if you subset by year
+  old_val_path: notebooks/data/processed/val.csv
+finetune:
+  new_train_path: notebooks/data/processed/train.csv  # replace with new split if you subset by year
+  new_val_path: notebooks/data/processed/val.csv
+lr: 0.001
+epochs: 50
+batch_size: 64
+freeze_encoder_epochs: 0  # set >0 to freeze encoder for first N epochs during finetune
+seed: 42
