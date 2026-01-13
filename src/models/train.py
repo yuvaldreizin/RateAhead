@@ -116,8 +116,10 @@ def train_model(cfg: TrainConfig, train_loader, val_loader, X_is_separate: bool 
 
         if epoch % 10 == 0 or epoch == 1:
             print(
-                f\"Epoch {epoch:03d} | train MSE {history['train_loss'][-1]:.4f} | val MSE {history['val_loss'][-1]:.4f} | "
-                f\"train MAE {history['train_mae'][-1]:.4f} | val MAE {history['val_mae'][-1]:.4f}\"
+                f"Epoch {epoch:03d} | train MSE {history['train_loss'][-1]:.4f} | "
+                f"val MSE {history['val_loss'][-1]:.4f} | "
+                f"train MAE {history['train_mae'][-1]:.4f} | "
+                f"val MAE {history['val_mae'][-1]:.4f}"
             )
 
         # Simple freeze/unfreeze hook for finetune
