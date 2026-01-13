@@ -1,0 +1,19 @@
+{
+  "mode": "shared",
+  "input_dim": 12,
+  "num_dim": null,
+  "cat_dim": null,
+  "encoder_hidden": [
+    256,
+    128,
+    64
+  ],
+  "head_hidden": [],
+  "dropout": 0.1,
+  "lr": 0.001,
+  "epochs": 200,
+  "batch_size": 256,
+  "device": "cpu",
+  "freeze_encoder_epochs": 0,
+  "artifact_root": "c:\\Users\\ydreizin\\OneDrive - NVIDIA Corporation\\Documents\\Technion\\RateAhead\\notebooks\\artifacts\\baseline"
+}
