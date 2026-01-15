@@ -1,0 +1,157 @@
+name,rating,genre,year,released,score,votes,director,writer,star,country,budget,gross,company,runtime
+Mad Max: Fury Road,R,Action,2015,"May 15, 2015 (United States)",8.1,912000.0,George Miller,George Miller,Tom Hardy,Australia,150000000.0,375658750.0,Warner Bros.,120.0
+Avengers: Age of Ultron,PG-13,Action,2015,"May 1, 2015 (United States)",7.3,777000.0,Joss Whedon,Joss Whedon,Robert Downey Jr.,United States,250000000.0,1402809540.0,Marvel Studios,141.0
+Crimson Peak,R,Drama,2015,"October 16, 2015 (United States)",6.5,136000.0,Guillermo del Toro,Guillermo del Toro,Mia Wasikowska,Canada,55000000.0,74679822.0,Double Dare You (DDY),119.0
+Furious 7,PG-13,Action,2015,"April 3, 2015 (United States)",7.1,370000.0,James Wan,Chris Morgan,Vin Diesel,United States,190000000.0,1515341399.0,Universal Pictures,137.0
+The Hateful Eight,R,Crime,2015,"December 30, 2015 (United States)",7.8,539000.0,Quentin Tarantino,Quentin Tarantino,Samuel L. Jackson,United States,44000000.0,156480177.0,Visiona Romantica,168.0
+Ant-Man,PG-13,Action,2015,"July 17, 2015 (United States)",7.3,595000.0,Peyton Reed,Edgar Wright,Paul Rudd,United States,130000000.0,519311965.0,Gary Sanchez Productions,117.0
+Fifty Shades of Grey,R,Drama,2015,"February 13, 2015 (United States)",4.1,304000.0,Sam Taylor-Johnson,Kelly Marcel,Dakota Johnson,United States,40000000.0,569651467.0,Focus Features,125.0
+Sicario,R,Action,2015,"October 2, 2015 (United States)",7.6,386000.0,Denis Villeneuve,Taylor Sheridan,Emily Blunt,United States,30000000.0,84872444.0,Lionsgate,121.0
+The Witch,R,Drama,2015,"February 19, 2016 (United States)",6.9,218000.0,Robert Eggers,Robert Eggers,Anya Taylor-Joy,Canada,4000000.0,40423945.0,Parts and Labor,92.0
+The Big Short,R,Biography,2015,"December 23, 2015 (United States)",7.8,381000.0,Adam McKay,Charles Randolph,Christian Bale,United States,28000000.0,133440870.0,Paramount Pictures,130.0
+Jurassic World,PG-13,Action,2015,"June 12, 2015 (United States)",7.0,593000.0,Colin Trevorrow,Rick Jaffa,Chris Pratt,United States,150000000.0,1670516444.0,Universal Pictures,124.0
+The Revenant,R,Action,2015,"January 8, 2016 (United States)",8.0,729000.0,Alejandro G. Iñárritu,Mark L. Smith,Leonardo DiCaprio,United States,135000000.0,532950503.0,New Regency Productions,156.0
+The Martian,PG-13,Adventure,2015,"October 2, 2015 (United States)",8.0,783000.0,Ridley Scott,Drew Goddard,Matt Damon,United Kingdom,108000000.0,630162448.0,Twentieth Century Fox,144.0
+Room,R,Drama,2015,"January 22, 2016 (United States)",8.1,386000.0,Lenny Abrahamson,Emma Donoghue,Brie Larson,Canada,13000000.0,35401758.0,Element Pictures,118.0
+Inside Out,PG,Animation,2015,"June 19, 2015 (United States)",8.1,641000.0,Pete Docter,Pete Docter,Amy Poehler,United States,175000000.0,858848019.0,Pixar Animation Studios,95.0
+Spotlight,R,Biography,2015,"November 20, 2015 (United States)",8.1,435000.0,Tom McCarthy,Josh Singer,Mark Ruffalo,United States,20000000.0,98690254.0,Participant,129.0
+American Ultra,R,Action,2015,"August 21, 2015 (United States)",6.1,87000.0,Nima Nourizadeh,Max Landis,Jesse Eisenberg,United States,28000000.0,27262374.0,PalmStar Media,96.0
+The Man from U.N.C.L.E.,PG-13,Action,2015,"August 14, 2015 (United States)",7.3,286000.0,Guy Ritchie,Guy Ritchie,Henry Cavill,United States,75000000.0,107045109.0,Warner Bros.,116.0
+Terminator Genisys,PG-13,Action,2015,"July 1, 2015 (United States)",6.3,264000.0,Alan Taylor,Laeta Kalogridis,Arnold Schwarzenegger,United States,155000000.0,440603537.0,Paramount Pictures,126.0
+Cinderella,PG,Drama,2015,"March 13, 2015 (United States)",6.9,165000.0,Kenneth Branagh,Chris Weitz,Lily James,United States,95000000.0,542358331.0,Allison Shearmur Productions,105.0
+Star Wars: Episode VII - The Force Awakens,PG-13,Action,2015,"December 18, 2015 (United States)",7.8,876000.0,J.J. Abrams,Lawrence Kasdan,Daisy Ridley,United States,245000000.0,2069521700.0,Lucasfilm,138.0
+Spectre,PG-13,Action,2015,"November 6, 2015 (United States)",6.8,393000.0,Sam Mendes,John Logan,Daniel Craig,United Kingdom,245000000.0,880681519.0,B24,148.0
+Legend,R,Biography,2015,"November 20, 2015 (United States)",6.9,164000.0,Brian Helgeland,Brian Helgeland,Tom Hardy,United Kingdom,30000000.0,42972994.0,Cross Creek Pictures,132.0
+Chappie,R,Action,2015,"March 6, 2015 (United States)",6.8,235000.0,Neill Blomkamp,Neill Blomkamp,Sharlto Copley,South Africa,49000000.0,102811889.0,Columbia Pictures,120.0
+Knock Knock,R,Drama,2015,"October 9, 2015 (United States)",4.9,87000.0,Eli Roth,Eli Roth,Keanu Reeves,United States,2500000.0,5567103.0,Black Bear Pictures,99.0
+In the Heart of the Sea,PG-13,Action,2015,"December 11, 2015 (United States)",6.9,128000.0,Ron Howard,Charles Leavitt,Chris Hemsworth,United States,100000000.0,93920758.0,Warner Bros.,122.0
+The Bronze,R,Comedy,2015,"March 18, 2016 (United States)",6.1,11000.0,Bryan Buckley,Melissa Rauch,Melissa Rauch,United States,3500000.0,615816.0,Duplass Brothers Productions,100.0
+The Intern,PG-13,Comedy,2015,"September 25, 2015 (United States)",7.1,231000.0,Nancy Meyers,Nancy Meyers,Robert De Niro,United States,35000000.0,194564672.0,Waverly Films,121.0
+The Hunger Games: Mockingjay - Part 2,PG-13,Action,2015,"November 20, 2015 (United States)",6.6,297000.0,Francis Lawrence,Peter Craig,Jennifer Lawrence,United States,160000000.0,658344137.0,Lionsgate,137.0
+Everest,PG-13,Action,2015,"September 25, 2015 (United States)",7.1,205000.0,Baltasar Kormákur,William Nicholson,Jason Clarke,United Kingdom,55000000.0,203427584.0,Working Title Films,121.0
+Blackhat,R,Action,2015,"January 16, 2015 (United States)",5.4,56000.0,Michael Mann,Morgan Davis Foehl,Chris Hemsworth,United States,70000000.0,19652057.0,Forward Pass,133.0
+Spy,R,Action,2015,"June 5, 2015 (United States)",7.0,234000.0,Paul Feig,Paul Feig,Melissa McCarthy,United States,65000000.0,235666219.0,Twentieth Century Fox,120.0
+Fantastic Four,PG-13,Action,2015,"August 7, 2015 (United States)",4.2,156000.0,Josh Trank,Jeremy Slater,Miles Teller,United States,120000000.0,167882881.0,Twentieth Century Fox,100.0
+Mission: Impossible - Rogue Nation,PG-13,Action,2015,"July 31, 2015 (United States)",7.4,350000.0,Christopher McQuarrie,Bruce Geller,Tom Cruise,United States,150000000.0,682716636.0,Paramount Pictures,131.0
+The Visit,PG-13,Horror,2015,"September 11, 2015 (United States)",6.2,119000.0,M. Night Shyamalan,M. Night Shyamalan,Olivia DeJonge,United States,5000000.0,98450062.0,Blinding Edge Pictures,94.0
+Vacation,R,Adventure,2015,"July 29, 2015 (United States)",6.1,103000.0,John Francis Daley,Jonathan Goldstein,Ed Helms,United States,31000000.0,107228221.0,BenderSpink,99.0
+Creed,PG-13,Drama,2015,"November 25, 2015 (United States)",7.6,254000.0,Ryan Coogler,Ryan Coogler,Michael B. Jordan,United States,35000000.0,173567581.0,Metro-Goldwyn-Mayer (MGM),133.0
+The Age of Adaline,PG-13,Drama,2015,"April 24, 2015 (United States)",7.2,160000.0,Lee Toland Krieger,J. Mills Goodloe,Blake Lively,United States,25000000.0,65663276.0,Lakeshore Entertainment,112.0
+Black Mass,R,Biography,2015,"September 18, 2015 (United States)",6.9,171000.0,Scott Cooper,Mark Mallouk,Johnny Depp,United States,53000000.0,99775678.0,Cross Creek Pictures,123.0
+Focus,R,Comedy,2015,"February 27, 2015 (United States)",6.6,226000.0,Glenn Ficarra,Glenn Ficarra,Will Smith,United States,50100000.0,158762963.0,Kramer & Sigman Films,105.0
+Home,PG,Animation,2015,"March 27, 2015 (United States)",6.6,95000.0,Tim Johnson,Tom J. Astle,Jim Parsons,United States,135000000.0,386041607.0,DreamWorks Animation,94.0
+Jupiter Ascending,PG-13,Action,2015,"February 6, 2015 (United States)",5.3,182000.0,Lana Wachowski,Lilly Wachowski,Channing Tatum,United States,176000000.0,183887723.0,Warner Bros.,127.0
+I Saw the Light,R,Biography,2015,"April 1, 2016 (United States)",5.8,6700.0,Marc Abraham,Marc Abraham,Tom Hiddleston,United States,13000000.0,1767963.0,BRON Studios,123.0
+Minions,PG,Animation,2015,"July 10, 2015 (United States)",6.4,218000.0,Kyle Balda,Brian Lynch,Sandra Bullock,United States,74000000.0,1159444662.0,Illumination Entertainment,91.0
+Pitch Perfect 2,PG-13,Comedy,2015,"May 15, 2015 (United States)",6.4,146000.0,Elizabeth Banks,Kay Cannon,Anna Kendrick,United States,29000000.0,287144079.0,Brownstone Productions (II),115.0
+San Andreas,PG-13,Action,2015,"May 29, 2015 (United States)",6.1,219000.0,Brad Peyton,Carlton Cuse,Dwayne Johnson,United States,110000000.0,473990832.0,New Line Cinema,114.0
+Trainwreck,R,Comedy,2015,"July 17, 2015 (United States)",6.2,132000.0,Judd Apatow,Amy Schumer,Amy Schumer,United States,35000000.0,140795793.0,Universal Pictures,125.0
+Tomorrowland,PG,Action,2015,"May 22, 2015 (United States)",6.4,175000.0,Brad Bird,Damon Lindelof,George Clooney,United States,190000000.0,209035668.0,Walt Disney Pictures,130.0
+Bridge of Spies,PG-13,Drama,2015,"October 16, 2015 (United States)",7.6,295000.0,Steven Spielberg,Matt Charman,Tom Hanks,United States,40000000.0,165478348.0,Dreamworks Pictures,142.0
+The Danish Girl,R,Biography,2015,"January 22, 2016 (United States)",7.1,170000.0,Tom Hooper,Lucinda Coxon,Eddie Redmayne,United Kingdom,15000000.0,64191523.0,Working Title Films,119.0
+The Divergent Series: Insurgent,PG-13,Action,2015,"March 20, 2015 (United States)",6.2,223000.0,Robert Schwentke,Brian Duffield,Shailene Woodley,United States,110000000.0,297002527.0,Summit Entertainment,119.0
+Straight Outta Compton,R,Biography,2015,"August 14, 2015 (United States)",7.8,185000.0,F. Gary Gray,Jonathan Herman,O'Shea Jackson Jr.,United States,28000000.0,201634991.0,Universal Pictures,147.0
+Carol,R,Drama,2015,"January 15, 2016 (United States)",7.2,120000.0,Todd Haynes,Phyllis Nagy,Cate Blanchett,United Kingdom,11800000.0,40272135.0,The Weinstein Company,118.0
+No Escape,R,Action,2015,"August 26, 2015 (United States)",6.8,81000.0,John Erick Dowdle,John Erick Dowdle,Lake Bell,United States,16200000.0,54418872.0,Bold Films,103.0
+The Boy Next Door,R,Thriller,2015,"January 23, 2015 (United States)",4.7,40000.0,Rob Cohen,Barbara Curry,Jennifer Lopez,United States,4000000.0,52425855.0,Universal Pictures,91.0
+Southpaw,R,Action,2015,"July 24, 2015 (United States)",7.4,223000.0,Antoine Fuqua,Kurt Sutter,Jake Gyllenhaal,Hong Kong,30000000.0,91970827.0,Escape Artists,124.0
+Maze Runner: The Scorch Trials,PG-13,Action,2015,"September 18, 2015 (United States)",6.3,230000.0,Wes Ball,T.S. Nowlin,Dylan O'Brien,United States,61000000.0,312296056.0,Gotham Group,131.0
+The Last Witch Hunter,PG-13,Action,2015,"October 23, 2015 (United States)",6.0,98000.0,Breck Eisner,Cory Goodman,Vin Diesel,United States,90000000.0,146936910.0,Summit Entertainment,106.0
+Green Room,R,Horror,2015,"May 13, 2016 (United States)",7.0,112000.0,Jeremy Saulnier,Jeremy Saulnier,Anton Yelchin,United States,5000000.0,3769214.0,Broad Green Pictures,95.0
+Burnt,R,Comedy,2015,"October 30, 2015 (United States)",6.6,110000.0,John Wells,Steven Knight,Bradley Cooper,United States,20000000.0,36606743.0,3 Arts Entertainment,101.0
+The Good Dinosaur,PG,Animation,2015,"November 25, 2015 (United States)",6.7,106000.0,Peter Sohn,Bob Peterson,Jeffrey Wright,United States,200000000.0,332207671.0,Pixar Animation Studios,93.0
+The Gift,R,Drama,2015,"August 7, 2015 (United States)",7.0,145000.0,Joel Edgerton,Joel Edgerton,Jason Bateman,United States,5000000.0,58980521.0,Blumhouse Productions,108.0
+Point Break,PG-13,Action,2015,"December 25, 2015 (United States)",5.3,60000.0,Ericson Core,Kurt Wimmer,Edgar Ramírez,China,105000000.0,133718711.0,Alcon Entertainment,114.0
+Get Hard,R,Comedy,2015,"March 27, 2015 (United States)",6.0,127000.0,Etan Cohen,Jay Martel,Will Ferrell,United States,40000000.0,111711453.0,Gary Sanchez Productions,100.0
+Hitman: Agent 47,R,Action,2015,"August 21, 2015 (United States)",5.7,87000.0,Aleksander Bach,Skip Woods,Rupert Friend,United States,35000000.0,82347656.0,Twentieth Century Fox,96.0
+Entourage,R,Comedy,2015,"June 3, 2015 (United States)",6.6,77000.0,Doug Ellin,Doug Ellin,Adrian Grenier,United States,30000000.0,49263404.0,Warner Bros.,104.0
+Steve Jobs,R,Biography,2015,"October 23, 2015 (United States)",7.2,160000.0,Danny Boyle,Aaron Sorkin,Michael Fassbender,United Kingdom,30000000.0,34441873.0,Universal Pictures,122.0
+Scouts Guide to the Zombie Apocalypse,R,Action,2015,"October 30, 2015 (United States)",6.3,47000.0,Christopher Landon,Carrie Lee Wilson,Tye Sheridan,United States,15000000.0,16137046.0,Paramount Pictures,93.0
+Hardcore Henry,R,Action,2015,"April 8, 2016 (United States)",6.7,90000.0,Ilya Naishuller,Ilya Naishuller,Sharlto Copley,Russia,2000000.0,16810562.0,Bazelevs Production,96.0
+Joy,PG-13,Biography,2015,"December 25, 2015 (United States)",6.6,131000.0,David O. Russell,David O. Russell,Jennifer Lawrence,United States,60000000.0,101134059.0,Fox 2000 Pictures,124.0
+Masterminds,PG-13,Biography,2015,"September 30, 2016 (United States)",5.8,52000.0,Jared Hess,Chris Bowman,Zach Galifianakis,United States,25000000.0,29674699.0,Broadway Video,95.0
+Brooklyn,PG-13,Drama,2015,"November 25, 2015 (United States)",7.5,135000.0,John Crowley,Nick Hornby,Saoirse Ronan,United Kingdom,11000000.0,62402155.0,Wildgaze Films,117.0
+Self/less,PG-13,Action,2015,"July 10, 2015 (United States)",6.5,93000.0,Tarsem Singh,Àlex Pastor,Ryan Reynolds,United States,26000000.0,31807156.0,Focus Features,117.0
+Ted 2,R,Comedy,2015,"June 26, 2015 (United States)",6.3,191000.0,Seth MacFarlane,Seth MacFarlane,Mark Wahlberg,United States,68000000.0,215863606.0,Universal Pictures,115.0
+Pan,PG,Adventure,2015,"October 9, 2015 (United States)",5.7,62000.0,Joe Wright,Jason Fuchs,Levi Miller,United States,150000000.0,128388320.0,Warner Bros.,111.0
+Pixels,PG-13,Action,2015,"July 24, 2015 (United States)",5.5,135000.0,Chris Columbus,Tim Herlihy,Adam Sandler,United States,88000000.0,244874809.0,Columbia Pictures,105.0
+Demolition,R,Comedy,2015,"April 8, 2016 (United States)",7.0,93000.0,Jean-Marc Vallée,Bryan Sipe,Jake Gyllenhaal,United States,10000000.0,4366460.0,Black Label Media,101.0
+Macbeth,R,Drama,2015,"December 11, 2015 (United States)",6.6,54000.0,Justin Kurzel,Todd Louiso,Michael Fassbender,United Kingdom,15000000.0,16322067.0,See-Saw Films,113.0
+Daddy's Home,PG-13,Comedy,2015,"December 25, 2015 (United States)",6.2,112000.0,Sean Anders,Brian Burns,Will Ferrell,United States,50000000.0,242786137.0,Paramount Pictures,96.0
+Run All Night,R,Action,2015,"March 13, 2015 (United States)",6.6,105000.0,Jaume Collet-Serra,Brad Ingelsby,Liam Neeson,United States,50000000.0,71561644.0,Warner Bros.,114.0
+Mr. Right,R,Action,2015,"April 8, 2016 (United States)",6.4,52000.0,Paco Cabezas,Max Landis,Anna Kendrick,United States,8000000.0,607595.0,Amasia Entertainment,95.0
+Magic Mike XXL,R,Comedy,2015,"July 1, 2015 (United States)",5.6,53000.0,Gregory Jacobs,Reid Carolin,Channing Tatum,United States,14800000.0,117813057.0,Warner Bros.,115.0
+The DUFF,PG-13,Comedy,2015,"February 20, 2015 (United States)",6.5,87000.0,Ari Sandel,Josh A. Cagan,Mae Whitman,United States,8500000.0,43709744.0,CBS Films,101.0
+Trumbo,R,Biography,2015,"November 27, 2015 (United States)",7.5,78000.0,Jay Roach,John McNamara,Bryan Cranston,United States,15000000.0,11430025.0,Bleecker Street Films,124.0
+Hotel Transylvania 2,PG,Animation,2015,"September 25, 2015 (United States)",6.7,113000.0,Genndy Tartakovsky,Robert Smigel,Adam Sandler,United States,80000000.0,474800000.0,Columbia Pictures,89.0
+The Longest Ride,PG-13,Drama,2015,"April 10, 2015 (United States)",7.1,79000.0,George Tillman Jr.,Nicholas Sparks,Scott Eastwood,United States,34000000.0,62944815.0,Fox 2000 Pictures,123.0
+Victor Frankenstein,PG-13,Drama,2015,"November 25, 2015 (United States)",6.0,54000.0,Paul McGuigan,Max Landis,Daniel Radcliffe,United Kingdom,65000000.0,34227298.0,Davis Entertainment,110.0
+Insidious: Chapter 3,PG-13,Horror,2015,"June 5, 2015 (United States)",6.1,97000.0,Leigh Whannell,Leigh Whannell,Dermot Mulroney,Canada,10000000.0,112983889.0,Gramercy Pictures (I),97.0
+Goosebumps,PG,Adventure,2015,"October 16, 2015 (United States)",6.3,83000.0,Rob Letterman,Darren Lemke,Jack Black,United States,58000000.0,158261424.0,Sony Pictures Animation,103.0
+Aloha,PG-13,Comedy,2015,"May 29, 2015 (United States)",5.4,64000.0,Cameron Crowe,Cameron Crowe,Bradley Cooper,United States,37000000.0,26250020.0,Columbia Pictures,105.0
+Baahubali: The Beginning,Not Rated,Action,2015,"July 9, 2015 (United States)",8.0,107000.0,S.S. Rajamouli,Vijayendra Prasad,Prabhas,India,18026148.0,24548038.0,Arka Mediaworks,159.0
+The Wedding Ringer,R,Comedy,2015,"January 16, 2015 (United States)",6.6,72000.0,Jeremy Garelick,Jeremy Garelick,Kevin Hart,United States,23000000.0,79799880.0,LStar Capital,101.0
+Sisters,R,Comedy,2015,"December 18, 2015 (United States)",6.0,64000.0,Jason Moore,Paula Pell,Amy Poehler,United States,30000000.0,105011053.0,Little Stranger,118.0
+Secret in Their Eyes,PG-13,Crime,2015,"November 20, 2015 (United States)",6.3,46000.0,Billy Ray,Billy Ray,Chiwetel Ejiofor,United States,19500000.0,34854990.0,IM Global,111.0
+Irrational Man,R,Comedy,2015,"August 7, 2015 (United States)",6.6,60000.0,Woody Allen,Woody Allen,Joaquin Phoenix,United States,11000000.0,27391084.0,Gravier Productions,95.0
+Wild Card,R,Action,2015,"January 14, 2015 (Belgium)",5.6,53000.0,Simon West,William Goldman,Jason Statham,United States,30000000.0,6738764.0,Lionsgate,92.0
+Paper Towns,PG-13,Adventure,2015,"July 24, 2015 (United States)",6.2,98000.0,Jake Schreier,Scott Neustadter,Nat Wolff,United States,12000000.0,85512300.0,Fox 2000 Pictures,109.0
+The Lady in the Van,PG-13,Biography,2015,"February 26, 2016 (United States)",6.7,27000.0,Nicholas Hytner,Alan Bennett,Maggie Smith,United Kingdom,6000000.0,41387687.0,BBC Films,104.0
+The SpongeBob Movie: Sponge Out of Water,PG,Animation,2015,"February 6, 2015 (United States)",6.0,51000.0,Paul Tibbitt,Jonathan Aibel,Tom Kenny,United States,74000000.0,325186032.0,Paramount Animation,92.0
+Child 44,R,Crime,2015,"April 17, 2015 (United Kingdom)",6.5,68000.0,Daniel Espinosa,Richard Price,Tom Hardy,Czech Republic,50000000.0,12951093.0,Summit Entertainment,137.0
+Beasts of No Nation,TV-MA,Drama,2015,"October 16, 2015 (United States)",7.7,76000.0,Cary Joji Fukunaga,Cary Joji Fukunaga,Abraham Attah,United States,6000000.0,90777.0,Red Crown Productions,137.0
+Me and Earl and the Dying Girl,PG-13,Comedy,2015,"July 1, 2015 (United States)",7.7,126000.0,Alfonso Gomez-Rejon,Jesse Andrews,Thomas Mann,United States,8000000.0,9074749.0,Fox Searchlight Pictures,105.0
+Concussion,PG-13,Biography,2015,"December 25, 2015 (United States)",7.1,89000.0,Peter Landesman,Peter Landesman,Will Smith,United Kingdom,35000000.0,48623572.0,LStar Capital,123.0
+The Diary of a Teenage Girl,R,Comedy,2015,"August 28, 2015 (United States)",6.9,30000.0,Marielle Heller,Phoebe Gloeckner,Bel Powley,United States,2000000.0,1775133.0,Caviar,102.0
+The Walk,PG,Action,2015,"October 9, 2015 (United States)",7.3,123000.0,Robert Zemeckis,Robert Zemeckis,Joseph Gordon-Levitt,United States,35000000.0,61181942.0,Sony Pictures Entertainment (SPE),123.0
+Tangerine,R,Comedy,2015,"July 10, 2015 (United States)",7.1,28000.0,Sean Baker,Sean Baker,Kitana Kiki Rodriguez,United States,100000.0,828874.0,Duplass Brothers Productions,88.0
+A Walk in the Woods,R,Adventure,2015,"September 2, 2015 (United States)",6.4,26000.0,Ken Kwapis,Michael Arndt,Robert Redford,United States,8000000.0,37461274.0,Route One Entertainment,104.0
+Sinister 2,R,Horror,2015,"August 21, 2015 (United States)",5.3,50000.0,Ciarán Foy,Scott Derrickson,James Ransone,United States,10000000.0,53329150.0,Entertainment One,97.0
+Anomalisa,R,Animation,2015,"March 11, 2016 (United Kingdom)",7.3,68000.0,Duke Johnson,Charlie Kaufman,David Thewlis,United Kingdom,8000000.0,5659286.0,Paramount Animation,90.0
+Mississippi Grind,R,Comedy,2015,"August 13, 2015 (United States)",6.4,22000.0,Anna Boden,Anna Boden,Ben Mendelsohn,United States,6000000.0,422746.0,Sycamore Pictures,108.0
+Woman in Gold,PG-13,Biography,2015,"April 10, 2015 (United States)",7.3,56000.0,Simon Curtis,Alexi Kaye Campbell,Helen Mirren,United Kingdom,11000000.0,61619773.0,Origin Pictures,109.0
+Eddie the Eagle,PG-13,Biography,2015,"February 26, 2016 (United States)",7.4,88000.0,Dexter Fletcher,Simon Kelton,Taron Egerton,United Kingdom,23000000.0,46152800.0,Hurwitz Creative,106.0
+Eye in the Sky,R,Action,2015,"April 1, 2016 (United States)",7.3,81000.0,Gavin Hood,Guy Hibbert,Helen Mirren,United Kingdom,13000000.0,35259653.0,Raindog Films,102.0
+The Second Best Exotic Marigold Hotel,PG,Comedy,2015,"March 6, 2015 (United States)",6.6,32000.0,John Madden,Ol Parker,Judi Dench,United Kingdom,10000000.0,85978292.0,Blueprint Pictures,122.0
+Poltergeist,PG-13,Horror,2015,"May 22, 2015 (United States)",4.9,56000.0,Gil Kenan,David Lindsay-Abaire,Sam Rockwell,United States,35000000.0,95437994.0,Fox 2000 Pictures,93.0
+The Meddler,PG-13,Comedy,2015,"June 3, 2016 (Spain)",6.3,12000.0,Lorene Scafaria,Lorene Scafaria,Susan Sarandon,United States,3200000.0,5425148.0,Anonymous Content,103.0
+We Are Your Friends,R,Drama,2015,"August 28, 2015 (United States)",6.2,37000.0,Max Joseph,Max Joseph,Zac Efron,United Kingdom,2000000.0,11122090.0,StudioCanal,96.0
+Grandma,R,Comedy,2015,"September 18, 2015 (United States)",6.7,15000.0,Paul Weitz,Paul Weitz,Lily Tomlin,United States,600000.0,7205073.0,Depth of Field,79.0
+By the Sea,R,Drama,2015,"December 9, 2015 (France)",5.3,19000.0,Angelina Jolie,Angelina Jolie,Brad Pitt,France,10000000.0,3334927.0,Universal Pictures,122.0
+Mortdecai,R,Action,2015,"January 23, 2015 (United States)",5.5,69000.0,David Koepp,Eric Aronson,Johnny Depp,United Kingdom,60000000.0,47275717.0,MWM Studios,107.0
+Project Almanac,PG-13,Drama,2015,"January 30, 2015 (United States)",6.4,77000.0,Dean Israelite,Jason Pagan,Amy Landecker,United States,12000000.0,33213241.0,Insurge Pictures,106.0
+The Man Who Knew Infinity,PG-13,Biography,2015,"April 29, 2016 (United States)",7.2,53000.0,Matt Brown,Matt Brown,Dev Patel,United Kingdom,10000000.0,12252684.0,Pressman Film,108.0
+Z for Zachariah,PG-13,Drama,2015,"August 13, 2015 (Denmark)",6.0,29000.0,Craig Zobel,Nissar Modi,Chiwetel Ejiofor,Iceland,7500000.0,381839.0,Silver Reel,98.0
+Equals,PG-13,Drama,2015,"May 26, 2016 (United States)",6.1,29000.0,Drake Doremus,Nathan Parker,Nicholas Hoult,United States,16000000.0,2084628.0,Freedom Media,101.0
+Dope,R,Adventure,2015,"June 19, 2015 (United States)",7.2,82000.0,Rick Famuyiwa,Rick Famuyiwa,Shameik Moore,United States,7000000.0,17986781.0,i am OTHER,103.0
+Hot Pursuit,PG-13,Action,2015,"May 8, 2015 (United States)",5.2,49000.0,Anne Fletcher,David Feeney,Reese Witherspoon,United States,35000000.0,51380201.0,Metro-Goldwyn-Mayer (MGM),87.0
+Krampus,PG-13,Comedy,2015,"December 4, 2015 (United States)",6.2,66000.0,Michael Dougherty,Todd Casey,Adam Scott,United States,15000000.0,61548707.0,Legendary Entertainment,98.0
+The Gunman,R,Action,2015,"March 20, 2015 (United States)",5.8,40000.0,Pierre Morel,Jean-Patrick Manchette,Sean Penn,United States,40000000.0,24177137.0,Open Road Films (II),115.0
+The Night Before,R,Comedy,2015,"November 20, 2015 (United States)",6.4,68000.0,Jonathan Levine,Jonathan Levine,Joseph Gordon-Levitt,United States,25000000.0,52395996.0,Columbia Pictures,101.0
+90 Minutes in Heaven,PG-13,Drama,2015,"September 11, 2015 (United States)",4.8,3500.0,Michael Polish,Michael Polish,Kate Bosworth,United States,5000000.0,4842699.0,Astute Films,121.0
+Ip Man 3,PG-13,Action,2015,"December 24, 2015 (Hong Kong)",7.1,51000.0,Wilson Yip,Tai-lee Chan,Donnie Yen,China,36000000.0,157029618.0,Golden Harvest Company,105.0
+"McFarland, USA",PG,Biography,2015,"February 20, 2015 (United States)",7.4,36000.0,Niki Caro,Christopher Cleveland,Kevin Costner,United States,17000000.0,45710059.0,Mayhem Pictures,129.0
+The Peanuts Movie,G,Animation,2015,"November 6, 2015 (United States)",7.1,43000.0,Steve Martino,Craig Schulz,Noah Schnapp,United States,99000000.0,246233113.0,Twentieth Century Fox Animation,88.0
+Rock the Kasbah,R,Comedy,2015,"October 23, 2015 (United States)",5.5,11000.0,Barry Levinson,Mitch Glazer,Bill Murray,United States,15000000.0,3394174.0,Covert Media,106.0
+The Sea of Trees,PG-13,Drama,2015,"August 26, 2016 (United States)",6.1,15000.0,Gus Van Sant,Chris Sparling,Matthew McConaughey,United States,25000000.0,906995.0,Bloom,110.0
+Alvin and the Chipmunks: The Road Chip,PG,Animation,2015,"December 18, 2015 (United States)",5.0,18000.0,Walt Becker,Ross Bagdasarian,Jason Lee,United States,90000000.0,234798636.0,Fox 2000 Pictures,92.0
+The Lazarus Effect,PG-13,Horror,2015,"February 27, 2015 (United States)",5.2,42000.0,David Gelb,Luke Dawson,Olivia Wilde,United States,3300000.0,38356892.0,Blumhouse Productions,83.0
+Love the Coopers,PG-13,Comedy,2015,"November 13, 2015 (United States)",5.8,22000.0,Jessie Nelson,Steven Rogers,Steve Martin,United States,17000000.0,42426912.0,CBS Films,107.0
+The 33,PG-13,Biography,2015,"November 13, 2015 (United States)",6.9,37000.0,Patricia Riggen,Mikko Alanne,Antonio Banderas,Chile,26000000.0,27972023.0,Alcon Entertainment,127.0
+The Little Prince,PG,Animation,2015,"August 5, 2016 (United States)",7.7,58000.0,Mark Osborne,Irena Brignull,Jeff Bridges,France,81200000.0,97571250.0,Onyx Films,108.0
+Louder Than Bombs,R,Drama,2015,"October 2, 2015 (Norway)",6.6,12000.0,Joachim Trier,Joachim Trier,Jesse Eisenberg,Norway,11000000.0,1160724.0,Motlys,109.0
+The Gallows,R,Horror,2015,"July 10, 2015 (United States)",4.3,20000.0,Travis Cluff,Chris Lofing,Reese Mishler,United States,100000.0,42964410.0,New Line Cinema,81.0
+Slow West,R,Action,2015,"April 16, 2015 (United States)",6.9,44000.0,John Maclean,John Maclean,Kodi Smit-McPhee,United Kingdom,2000000.0,1295574.0,Film4,84.0
+Cop Car,R,Crime,2015,"August 7, 2015 (United States)",6.3,31000.0,Jon Watts,Jon Watts,Kevin Bacon,United States,800000.0,143658.0,Audax Films,88.0
+Jem and the Holograms,PG,Adventure,2015,"October 23, 2015 (United States)",4.2,7500.0,Jon M. Chu,Ryan Landels,Aubrey Peeples,United States,5000000.0,2333684.0,Allspark Pictures,118.0
+Captive,PG-13,Action,2015,"September 18, 2015 (United States)",5.4,6500.0,Jerry Jameson,Brian Bird,Kate Mara,United States,2000000.0,2801508.0,BN Films,97.0
+Our Brand Is Crisis,R,Comedy,2015,"October 30, 2015 (United States)",6.1,21000.0,David Gordon Green,Rachel Boynton,Sandra Bullock,United States,28000000.0,8527658.0,Fortis Films,107.0
+Unfinished Business,R,Comedy,2015,"March 6, 2015 (United States)",5.4,33000.0,Ken Scott,Steve Conrad,Vince Vaughn,United States,35000000.0,14431253.0,New Regency Productions,91.0
+Hot Tub Time Machine 2,R,Comedy,2015,"February 20, 2015 (United States)",5.1,38000.0,Steve Pink,Josh Heald,Rob Corddry,United States,14000000.0,13081651.0,Paramount Pictures,93.0
+"Hello, My Name Is Doris",R,Comedy,2015,"April 1, 2016 (United States)",6.6,19000.0,Michael Showalter,Laura Terruso,Sally Field,United States,1000000.0,14659448.0,Red Crown Productions,90.0
+Ricki and the Flash,PG-13,Comedy,2015,"August 7, 2015 (United States)",5.9,23000.0,Jonathan Demme,Diablo Cody,Meryl Streep,United States,18000000.0,41325328.0,Clinica Estetico,101.0
+Danny Collins,R,Biography,2015,"April 10, 2015 (United States)",7.0,30000.0,Dan Fogelman,Dan Fogelman,Al Pacino,United States,10000000.0,10835752.0,Big Indie Pictures,106.0
+Mr. Holmes,PG,Drama,2015,"July 24, 2015 (United States)",6.9,62000.0,Bill Condon,Mitch Cullin,Ian McKellen,United Kingdom,11000000.0,29355203.0,Miramax,104.0
+Paul Blart: Mall Cop 2,PG,Action,2015,"April 17, 2015 (United States)",4.4,35000.0,Andy Fickman,Kevin James,Kevin James,United States,30000000.0,107588225.0,Columbia Pictures,94.0
+War Room,PG,Drama,2015,"August 28, 2015 (United States)",6.5,14000.0,Alex Kendrick,Alex Kendrick,Priscilla C. Shirer,United States,3000000.0,73256266.0,FaithStep Films,120.0
+Dragon Blade,R,Action,2015,"September 4, 2015 (United States)",6.0,19000.0,Daniel Lee,Daniel Lee,Jackie Chan,China,65000000.0,122606884.0,Sparkle Roll Media,127.0

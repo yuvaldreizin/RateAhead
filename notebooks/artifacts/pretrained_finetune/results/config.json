@@ -23,13 +23,23 @@
   "finetune_lr": 0.0005,
   "epoch_sweep": [
     1,
-    3,
-    5,
-    10
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256
   ],
   "pretrain_epochs": 100,
   "data_fracs": [
-    1.0
+    1.0,
+    0.8,
+    0.6,
+    0.4,
+    0.2,
+    0.1
   ],
   "device": "cpu",
   "artifact_root": "c:\\Users\\ydreizin\\OneDrive - NVIDIA Corporation\\Documents\\Technion\\RateAhead\\notebooks\\artifacts\\pretrained_finetune"
