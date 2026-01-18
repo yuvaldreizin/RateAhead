@@ -1,0 +1,144 @@
+name,rating,genre,year,released,score,votes,director,writer,star,country,budget,gross,company,runtime
+A Quiet Place,PG-13,Drama,2018,"April 6, 2018 (United States)",7.5,456000.0,John Krasinski,Bryan Woods,Emily Blunt,United States,17000000.0,350320413.0,Paramount Pictures,90.0
+Avengers: Infinity War,PG-13,Action,2018,"April 27, 2018 (United States)",8.4,897000.0,Anthony Russo,Christopher Markus,Robert Downey Jr.,United States,321000000.0,2048359754.0,Marvel Studios,149.0
+Deadpool 2,R,Action,2018,"May 18, 2018 (United States)",7.7,505000.0,David Leitch,Rhett Reese,Ryan Reynolds,Canada,110000000.0,786470484.0,Twentieth Century Fox,119.0
+Bohemian Rhapsody,PG-13,Biography,2018,"November 2, 2018 (United States)",7.9,476000.0,Bryan Singer,Anthony McCarten,Rami Malek,United Kingdom,52000000.0,911902649.0,Twentieth Century Fox,134.0
+Black Panther,PG-13,Action,2018,"February 16, 2018 (United States)",7.3,661000.0,Ryan Coogler,Ryan Coogler,Chadwick Boseman,United States,200000000.0,1347597973.0,Marvel Studios,134.0
+Hereditary,R,Drama,2018,"June 8, 2018 (United States)",7.3,259000.0,Ari Aster,Ari Aster,Toni Collette,United States,10000000.0,80239658.0,PalmStar Media,127.0
+A Simple Favor,R,Comedy,2018,"September 14, 2018 (United States)",6.8,136000.0,Paul Feig,Darcey Bell,Anna Kendrick,Canada,20000000.0,97644617.0,BRON Studios,117.0
+Aquaman,PG-13,Action,2018,"December 21, 2018 (United States)",6.9,404000.0,James Wan,David Leslie Johnson-McGoldrick,Jason Momoa,United States,160000000.0,1148485886.0,Warner Bros.,143.0
+Ready Player One,PG-13,Action,2018,"March 29, 2018 (United States)",7.4,388000.0,Steven Spielberg,Zak Penn,Tye Sheridan,United States,175000000.0,582893671.0,Warner Bros.,140.0
+Spider-Man: Into the Spider-Verse,PG,Animation,2018,"December 14, 2018 (United States)",8.4,411000.0,Bob Persichetti,Phil Lord,Shameik Moore,United States,90000000.0,375540831.0,Sony Pictures Entertainment (SPE),117.0
+Mission: Impossible - Fallout,PG-13,Action,2018,"July 27, 2018 (United States)",7.7,303000.0,Christopher McQuarrie,Bruce Geller,Tom Cruise,United States,178000000.0,791657398.0,Paramount Pictures,147.0
+Venom,PG-13,Action,2018,"October 5, 2018 (United States)",6.7,387000.0,Ruben Fleischer,Jeff Pinkner,Tom Hardy,China,100000000.0,856085151.0,Avi Arad Productions,112.0
+Green Book,PG-13,Biography,2018,"November 16, 2018 (United States)",8.2,414000.0,Peter Farrelly,Nick Vallelonga,Viggo Mortensen,United States,23000000.0,321752656.0,Participant,130.0
+Crazy Rich Asians,PG-13,Comedy,2018,"August 15, 2018 (United States)",6.9,152000.0,Jon M. Chu,Peter Chiarelli,Constance Wu,United States,30000000.0,238539198.0,Warner Bros.,120.0
+Ant-Man and the Wasp,PG-13,Action,2018,"July 6, 2018 (United States)",7.0,333000.0,Peyton Reed,Chris McKenna,Paul Rudd,United States,162000000.0,622674139.0,Marvel Studios,118.0
+BlacKkKlansman,R,Biography,2018,"August 10, 2018 (United States)",7.5,236000.0,Spike Lee,Charlie Wachtel,John David Washington,United States,15000000.0,93413709.0,Focus Features,135.0
+The Predator,R,Action,2018,"September 14, 2018 (United States)",5.3,120000.0,Shane Black,Fred Dekker,Boyd Holbrook,United States,88000000.0,160542134.0,Twentieth Century Fox,107.0
+White Boy Rick,R,Crime,2018,"September 14, 2018 (United States)",6.5,33000.0,Yann Demange,Andy Weiss,Matthew McConaughey,United States,29000000.0,25957482.0,LBI Productions,111.0
+Solo: A Star Wars Story,PG-13,Action,2018,"May 25, 2018 (United States)",6.9,306000.0,Ron Howard,Jonathan Kasdan,Alden Ehrenreich,United States,275000000.0,392924807.0,Lucasfilm,135.0
+Midnight Sun,PG-13,Drama,2018,"March 23, 2018 (United States)",6.6,26000.0,Scott Speer,Kenji Bando,Bella Thorne,United States,2800000.0,27365467.0,Boies / Schiller Film Group,91.0
+Under the Silver Lake,R,Crime,2018,"April 19, 2019 (United States)",6.5,36000.0,David Robert Mitchell,David Robert Mitchell,Andrew Garfield,United States,8500000.0,2053469.0,Vendian Entertainment,139.0
+Den of Thieves,R,Action,2018,"January 19, 2018 (United States)",7.0,99000.0,Christian Gudegast,Christian Gudegast,Gerard Butler,United States,30000000.0,80509622.0,STX Films,140.0
+Annihilation,R,Adventure,2018,"February 23, 2018 (United States)",6.8,292000.0,Alex Garland,Alex Garland,Natalie Portman,United Kingdom,40000000.0,43070915.0,Paramount Pictures,115.0
+Red Sparrow,R,Action,2018,"March 2, 2018 (United States)",6.6,173000.0,Francis Lawrence,Justin Haythe,Jennifer Lawrence,United States,69000000.0,151572634.0,Chernin Entertainment,140.0
+A Star Is Born,R,Drama,2018,"October 5, 2018 (United States)",7.6,350000.0,Bradley Cooper,Eric Roth,Lady Gaga,United States,36000000.0,436188866.0,Warner Bros. Pictures,136.0
+Mamma Mia! Here We Go Again,PG-13,Comedy,2018,"July 20, 2018 (United States)",6.6,85000.0,Ol Parker,Ol Parker,Lily James,United Kingdom,75000000.0,395618157.0,Universal Pictures,114.0
+Death Wish,R,Action,2018,"March 2, 2018 (United States)",6.3,67000.0,Eli Roth,Joe Carnahan,Bruce Willis,United States,30000000.0,49562710.0,Cave 76,107.0
+Instant Family,PG-13,Comedy,2018,"November 16, 2018 (United States)",7.3,97000.0,Sean Anders,Sean Anders,Mark Wahlberg,United States,48000000.0,120556201.0,Closest to the Hole Productions,118.0
+Jurassic World: Fallen Kingdom,PG-13,Action,2018,"June 22, 2018 (United States)",6.2,277000.0,J.A. Bayona,Derek Connolly,Chris Pratt,United States,170000000.0,1310466296.0,Universal Pictures,128.0
+Eighth Grade,R,Comedy,2018,"August 3, 2018 (United States)",7.4,68000.0,Bo Burnham,Bo Burnham,Elsie Fisher,United States,2000000.0,14347433.0,A24,93.0
+Ocean's Eight,PG-13,Action,2018,"June 8, 2018 (United States)",6.3,197000.0,Gary Ross,Gary Ross,Sandra Bullock,United States,70000000.0,297718711.0,Warner Bros.,110.0
+Suspiria,R,Fantasy,2018,"November 2, 2018 (United States)",6.7,66000.0,Luca Guadagnino,Dario Argento,Chloë Grace Moretz,Italy,20000000.0,7942093.0,Frenesy Film Company,152.0
+The Favourite,R,Biography,2018,"December 21, 2018 (United States)",7.5,181000.0,Yorgos Lanthimos,Deborah Davis,Olivia Colman,Ireland,15000000.0,95918706.0,Fox Searchlight Pictures,119.0
+The Meg,PG-13,Action,2018,"August 10, 2018 (United States)",5.6,157000.0,Jon Turteltaub,Dean Georgaris,Jason Statham,United States,130000000.0,530259473.0,Di Bonaventura Pictures,113.0
+Mandy,Not Rated,Horror,2018,"September 14, 2018 (United States)",6.5,68000.0,Panos Cosmatos,Panos Cosmatos,Nicolas Cage,United Kingdom,6000000.0,1555203.0,SpectreVision,121.0
+Sicario: Day of the Soldado,R,Action,2018,"June 29, 2018 (United States)",7.1,132000.0,Stefano Sollima,Taylor Sheridan,Benicio Del Toro,United States,35000000.0,75837743.0,Columbia Pictures,122.0
+Fifty Shades Freed,R,Drama,2018,"February 9, 2018 (United States)",4.5,59000.0,James Foley,Niall Leonard,Dakota Johnson,United States,55000000.0,371987838.0,Perfect World Pictures,105.0
+Halloween,R,Crime,2018,"October 19, 2018 (United States)",6.5,126000.0,David Gordon Green,John Carpenter,Jamie Lee Curtis,United States,10000000.0,255614941.0,Blumhouse Productions,106.0
+Incredibles 2,PG,Animation,2018,"June 15, 2018 (United States)",7.6,263000.0,Brad Bird,Brad Bird,Craig T. Nelson,United States,200000000.0,1244639527.0,Walt Disney Pictures,118.0
+The First Purge,R,Action,2018,"July 4, 2018 (United States)",5.2,58000.0,Gerard McMurray,James DeMonaco,Y'lan Noel,United States,13000000.0,137056262.0,Blumhouse Productions,97.0
+Ophelia,PG-13,Drama,2018,"June 28, 2019 (United States)",6.6,8500.0,Claire McCarthy,Semi Chellas,Daisy Ridley,United Kingdom,12000000.0,242115.0,Covert Media,106.0
+The Nun,R,Horror,2018,"September 7, 2018 (United States)",5.3,127000.0,Corin Hardy,Gary Dauberman,Demián Bichir,United States,22000000.0,365551694.0,Atomic Monster,96.0
+The Equalizer 2,R,Action,2018,"July 20, 2018 (United States)",6.7,141000.0,Antoine Fuqua,Richard Wenk,Denzel Washington,United States,62000000.0,190400157.0,Columbia Pictures,121.0
+The Commuter,PG-13,Action,2018,"January 12, 2018 (United States)",6.3,107000.0,Jaume Collet-Serra,Byron Willinger,Liam Neeson,United States,30000000.0,119942387.0,StudioCanal,104.0
+Game Night,R,Action,2018,"February 23, 2018 (United States)",6.9,215000.0,John Francis Daley,Mark Perez,Jason Bateman,United States,37000000.0,117679066.0,Access Entertainment,100.0
+Tag,R,Action,2018,"June 15, 2018 (United States)",6.5,121000.0,Jeff Tomsic,Rob McKittrick,Jeremy Renner,United States,28000000.0,78130625.0,Broken Road Productions,100.0
+The Hate U Give,PG-13,Crime,2018,"October 19, 2018 (United States)",7.5,33000.0,George Tillman Jr.,Audrey Wells,Amandla Stenberg,United States,23000000.0,34934009.0,Fox 2000 Pictures,133.0
+Bad Times at the El Royale,R,Crime,2018,"October 12, 2018 (United States)",7.1,135000.0,Drew Goddard,Drew Goddard,Jeff Bridges,United States,32000000.0,31882724.0,Goddard Textiles,141.0
+Fantastic Beasts: The Crimes of Grindelwald,PG-13,Adventure,2018,"November 16, 2018 (United States)",6.5,234000.0,David Yates,J.K. Rowling,Eddie Redmayne,United Kingdom,200000000.0,654855901.0,Heyday Films,134.0
+Hunter Killer,R,Action,2018,"October 26, 2018 (United States)",6.6,58000.0,Donovan Marsh,Arne Schmidt,Gerard Butler,United Kingdom,40000000.0,31676128.0,Hunter Killer Productions,121.0
+The Mule,R,Crime,2018,"December 14, 2018 (United States)",7.0,121000.0,Clint Eastwood,Nick Schenk,Clint Eastwood,United States,50000000.0,174804407.0,Warner Bros.,116.0
+Robin Hood,PG-13,Action,2018,"November 21, 2018 (United States)",5.3,68000.0,Otto Bathurst,Ben Chandler,Taron Egerton,United States,100000000.0,86493046.0,Summit Entertainment,116.0
+Beautiful Boy,R,Biography,2018,"October 25, 2018 (Israel)",7.3,59000.0,Felix van Groeningen,Luke Davies,Steve Carell,United States,25000000.0,16636604.0,Amazon Studios,120.0
+Capharnaüm,R,Drama,2018,"September 20, 2018 (Lebanon)",8.4,71000.0,Nadine Labaki,Nadine Labaki,Zain Al Rafeea,Lebanon,4000000.0,64417003.0,Mooz Films,126.0
+Adrift,PG-13,Action,2018,"June 1, 2018 (United States)",6.6,50000.0,Baltasar Kormákur,Aaron Kandell,Shailene Woodley,Hong Kong,35000000.0,59945012.0,Huayi Brothers,96.0
+"Love, Simon",PG-13,Comedy,2018,"March 16, 2018 (United States)",7.6,104000.0,Greg Berlanti,Becky Albertalli,Nick Robinson,United States,17000000.0,66316289.0,Fox 2000 Pictures,110.0
+Mary Poppins Returns,PG,Comedy,2018,"December 19, 2018 (United States)",6.7,80000.0,Rob Marshall,P.L. Travers,Emily Blunt,United States,130000000.0,349546142.0,Lucamar Productions,130.0
+Bumblebee,PG-13,Action,2018,"December 21, 2018 (United States)",6.7,147000.0,Travis Knight,Christina Hodson,Hailee Steinfeld,China,135000000.0,467989645.0,Hasbro,114.0
+Vice,R,Biography,2018,"December 25, 2018 (United States)",7.2,130000.0,Adam McKay,Adam McKay,Christian Bale,United States,60000000.0,76073488.0,Annapurna Pictures,132.0
+Hotel Transylvania 3: Summer Vacation,PG,Animation,2018,"July 13, 2018 (United States)",6.3,62000.0,Genndy Tartakovsky,Genndy Tartakovsky,Adam Sandler,United States,80000000.0,528583774.0,Sony Pictures Animation,97.0
+Mile 22,R,Action,2018,"August 17, 2018 (United States)",6.1,72000.0,Peter Berg,Graham Roland,Mark Wahlberg,United States,50000000.0,66308758.0,STX Entertainment,94.0
+Peter Rabbit,PG,Animation,2018,"February 9, 2018 (United States)",6.6,38000.0,Will Gluck,Rob Lieber,James Corden,United States,50000000.0,351496066.0,Columbia Pictures,95.0
+12 Strong,R,Action,2018,"January 19, 2018 (United States)",6.6,72000.0,Nicolai Fuglsig,Ted Tally,Chris Hemsworth,United States,35000000.0,67450815.0,Alcon Entertainment,130.0
+The Spy Who Dumped Me,R,Action,2018,"August 3, 2018 (United States)",6.1,72000.0,Susanna Fogel,Susanna Fogel,Justin Theroux,Canada,40000000.0,75339459.0,BRON Studios,117.0
+Upgrade,R,Action,2018,"June 1, 2018 (United States)",7.5,168000.0,Leigh Whannell,Leigh Whannell,Logan Marshall-Green,United States,5000000.0,16706680.0,Goalpost Pictures,100.0
+Mary Queen of Scots,R,Biography,2018,"December 21, 2018 (United States)",6.3,45000.0,Josie Rourke,Beau Willimon,Saoirse Ronan,United Kingdom,25000000.0,46712809.0,Focus Features,124.0
+Ralph Breaks the Internet,PG,Animation,2018,"November 21, 2018 (United States)",7.0,140000.0,Phil Johnston,Phil Johnston,John C. Reilly,United States,175000000.0,529323962.0,Walt Disney Animation Studios,112.0
+Overlord,R,Action,2018,"November 9, 2018 (United States)",6.6,91000.0,Julius Avery,Billy Ray,Jovan Adepo,United States,38000000.0,41657844.0,Bad Robot,110.0
+Tomb Raider,PG-13,Action,2018,"March 16, 2018 (United States)",6.3,197000.0,Roar Uthaug,Geneva Robertson-Dworet,Alicia Vikander,United Kingdom,94000000.0,274650803.0,Warner Bros.,119.0
+The Girl in the Spider's Web,R,Action,2018,"November 9, 2018 (United States)",6.1,44000.0,Fede Alvarez,David Lagercrantz,Claire Foy,Germany,43000000.0,35164920.0,Columbia Pictures,115.0
+Mortal Engines,PG-13,Action,2018,"December 14, 2018 (United States)",6.1,115000.0,Christian Rivers,Fran Walsh,Hera Hilmar,United States,100000000.0,83869818.0,Media Rights Capital (MRC),128.0
+Maze Runner: The Death Cure,PG-13,Action,2018,"January 26, 2018 (United States)",6.3,121000.0,Wes Ball,T.S. Nowlin,Dylan O'Brien,United States,62000000.0,288175335.0,Gotham Group,143.0
+First Man,PG-13,Biography,2018,"October 12, 2018 (United States)",7.3,176000.0,Damien Chazelle,Josh Singer,Ryan Gosling,United States,59000000.0,105713218.0,Universal Pictures,141.0
+Creed II,PG-13,Drama,2018,"November 21, 2018 (United States)",7.1,111000.0,Steven Caple Jr.,Juel Taylor,Michael B. Jordan,United States,50000000.0,214215889.0,Metro-Goldwyn-Mayer (MGM),130.0
+Rampage,PG-13,Action,2018,"April 13, 2018 (United States)",6.1,151000.0,Brad Peyton,Ryan Engle,Dwayne Johnson,United States,120000000.0,428028233.0,New Line Cinema,107.0
+Mid90s,R,Comedy,2018,"October 26, 2018 (United States)",7.4,54000.0,Jonah Hill,Jonah Hill,Sunny Suljic,United States,10000000.0,9303022.0,A24,85.0
+Replicas,PG-13,Drama,2018,"January 11, 2019 (United States)",5.5,34000.0,Jeffrey Nachmanoff,Chad St. John,Keanu Reeves,United Kingdom,30000000.0,9330075.0,Company Films,107.0
+Widows,R,Crime,2018,"November 16, 2018 (United States)",6.9,91000.0,Steve McQueen,Gillian Flynn,Viola Davis,United Kingdom,42000000.0,75984700.0,New Regency Productions,129.0
+Searching,PG-13,Drama,2018,"August 31, 2018 (United States)",7.6,148000.0,Aneesh Chaganty,Aneesh Chaganty,John Cho,United States,880000.0,75462037.0,Screen Gems,102.0
+Life Itself,R,Drama,2018,"September 21, 2018 (United States)",6.9,19000.0,Dan Fogelman,Dan Fogelman,Oscar Isaac,United States,10000000.0,7997774.0,FilmNation Entertainment,117.0
+Blockers,R,Comedy,2018,"April 6, 2018 (United States)",6.2,74000.0,Kay Cannon,Brian Kehoe,Leslie Mann,United States,21000000.0,94019120.0,Point Grey Pictures,102.0
+The Strangers: Prey at Night,R,Horror,2018,"March 9, 2018 (United States)",5.2,28000.0,Johannes Roberts,Bryan Bertino,Christina Hendricks,United States,5000000.0,31039126.0,Aviron Pictures,85.0
+Peppermint,R,Action,2018,"September 7, 2018 (United States)",6.5,60000.0,Pierre Morel,Chad St. John,Jennifer Garner,Hong Kong,25000000.0,53918723.0,STX Films,101.0
+Every Day,PG-13,Drama,2018,"February 23, 2018 (United States)",6.5,20000.0,Michael Sucsy,Jesse Andrews,Angourie Rice,Canada,4900000.0,10421847.0,Likely Story,97.0
+Operation Finale,PG-13,Biography,2018,"August 29, 2018 (United States)",6.6,36000.0,Chris Weitz,Matthew Orton,Oscar Isaac,United States,24000000.0,17612099.0,Metro-Goldwyn-Mayer (MGM),122.0
+The Sisters Brothers,R,Crime,2018,"October 19, 2018 (United States)",7.0,58000.0,Jacques Audiard,Jacques Audiard,John C. Reilly,France,38000000.0,13143056.0,Why Not Productions,122.0
+I Feel Pretty,PG-13,Comedy,2018,"April 20, 2018 (United States)",5.5,51000.0,Abby Kohn,Abby Kohn,Amy Schumer,China,32000000.0,94539426.0,Huayi Brothers Pictures,110.0
+Hotel Artemis,R,Action,2018,"June 8, 2018 (United States)",6.1,49000.0,Drew Pearce,Drew Pearce,Jodie Foster,United Kingdom,15000000.0,13313581.0,The Ink Factory,94.0
+Slender Man,PG-13,Horror,2018,"August 10, 2018 (United States)",3.2,30000.0,Sylvain White,David Birke,Joey King,United States,10000000.0,51738549.0,Screen Gems,93.0
+Book Club,PG-13,Comedy,2018,"May 18, 2018 (United States)",6.1,26000.0,Bill Holderman,Bill Holderman,Diane Keaton,United States,10000000.0,104438188.0,Apartment Story,104.0
+Sorry to Bother You,R,Comedy,2018,"July 13, 2018 (United States)",6.9,69000.0,Boots Riley,Boots Riley,LaKeith Stanfield,United States,3200000.0,18170707.0,Cinereach,112.0
+Pacific Rim: Uprising,PG-13,Action,2018,"March 23, 2018 (United States)",5.6,110000.0,Steven S. DeKnight,Steven S. DeKnight,John Boyega,United Kingdom,150000000.0,290930148.0,Legendary Entertainment,111.0
+Holmes & Watson,PG-13,Comedy,2018,"December 25, 2018 (United States)",3.8,33000.0,Etan Cohen,Etan Cohen,Will Ferrell,United States,42000000.0,40466970.0,Columbia Pictures,90.0
+The Darkest Minds,PG-13,Action,2018,"August 3, 2018 (United States)",5.7,30000.0,Jennifer Yuh Nelson,Chad Hodge,Amandla Stenberg,United States,34000000.0,41142379.0,21 Laps Entertainment,104.0
+Truth or Dare,PG-13,Horror,2018,"April 13, 2018 (United States)",5.2,50000.0,Jeff Wadlow,Michael Reisz,Lucy Hale,United States,3500000.0,95330710.0,Blumhouse Productions,100.0
+Alpha,PG-13,Action,2018,"August 17, 2018 (United States)",6.7,58000.0,Albert Hughes,Daniele Sebastian Wiedenhaupt,Kodi Smit-McPhee,United States,51000000.0,98203196.0,Studio 8,96.0
+Overboard,PG-13,Comedy,2018,"May 4, 2018 (United States)",6.0,36000.0,Rob Greenberg,Bob Fisher,Eugenio Derbez,United States,12000000.0,91244913.0,Metro-Goldwyn-Mayer (MGM),112.0
+Arctic,PG-13,Adventure,2018,"January 31, 2019 (Denmark)",6.8,46000.0,Joe Penna,Joe Penna,Mads Mikkelsen,Iceland,2000000.0,4165776.0,Armory Films,98.0
+A Wrinkle in Time,PG,Adventure,2018,"March 9, 2018 (United States)",4.2,42000.0,Ava DuVernay,Jennifer Lee,Storm Reid,United States,100000000.0,132675864.0,Legend3D,109.0
+London Fields,R,Crime,2018,"October 26, 2018 (United States)",4.0,7800.0,Mathew Cullen,Roberta Hanley,Amber Heard,United Kingdom,8000000.0,487420.0,Muse Productions,118.0
+Andhadhun,Not Rated,Crime,2018,"October 5, 2018 (United States)",8.2,79000.0,Sriram Raghavan,Arijit Biswas,Ayushmann Khurrana,India,4500000.0,62475342.0,Matchbox Pictures,139.0
+Life of the Party,PG-13,Comedy,2018,"May 11, 2018 (United States)",5.6,35000.0,Ben Falcone,Melissa McCarthy,Melissa McCarthy,United States,30000000.0,65859911.0,New Line Cinema,105.0
+The House with a Clock in Its Walls,PG,Comedy,2018,"September 21, 2018 (United States)",6.1,48000.0,Eli Roth,John Bellairs,Jack Black,United States,42000000.0,131523093.0,DreamWorks,105.0
+Brian Banks,PG-13,Biography,2018,"August 9, 2019 (United States)",7.2,5400.0,Tom Shadyac,Doug Atchison,Aldis Hodge,United States,10000000.0,4376819.0,ShivHans Pictures,99.0
+Gotti,R,Biography,2018,"June 14, 2018 (Hungary)",4.7,14000.0,Kevin Connolly,Leo Rossi,John Travolta,Canada,10000000.0,6412349.0,Emmett/Furla/Oasis Films (EFO Films),112.0
+Christopher Robin,PG,Adventure,2018,"August 3, 2018 (United States)",7.3,72000.0,Marc Forster,A.A. Milne,Ewan McGregor,United Kingdom,75000000.0,197744377.0,2DUX²,104.0
+Destroyer,R,Action,2018,"December 27, 2018 (Israel)",6.2,27000.0,Karyn Kusama,Phil Hay,Nicole Kidman,United States,9000000.0,5580940.0,Annapurna Pictures,121.0
+Insidious: The Last Key,PG-13,Horror,2018,"January 5, 2018 (United States)",5.7,55000.0,Adam Robitel,Leigh Whannell,Lin Shaye,United States,10000000.0,167885588.0,Blumhouse Productions,103.0
+Can You Ever Forgive Me?,R,Biography,2018,"November 2, 2018 (South Africa)",7.1,49000.0,Marielle Heller,Nicole Holofcener,Melissa McCarthy,United States,10000000.0,12442161.0,Archer Gray,106.0
+Unsane,R,Drama,2018,"March 23, 2018 (United States)",6.4,42000.0,Steven Soderbergh,Jonathan Bernstein,Claire Foy,United States,1500000.0,14293601.0,Fingerprint Releasing,98.0
+Boy Erased,R,Biography,2018,"November 8, 2018 (Australia)",6.9,35000.0,Joel Edgerton,Garrard Conley,Lucas Hedges,Australia,11000000.0,11853081.0,Focus Features,115.0
+Johnny English Strikes Again,PG,Action,2018,"October 26, 2018 (United States)",6.2,67000.0,David Kerr,William Davies,Rowan Atkinson,United Kingdom,25000000.0,158972499.0,Universal Pictures,89.0
+Skyscraper,PG-13,Action,2018,"July 13, 2018 (United States)",5.8,111000.0,Rawson Marshall Thurber,Rawson Marshall Thurber,Dwayne Johnson,United States,125000000.0,304868961.0,Legendary Entertainment,102.0
+Forever My Girl,PG,Comedy,2018,"January 19, 2018 (United States)",6.7,16000.0,Bethany Ashton Wolf,Bethany Ashton Wolf,Alex Roe,United States,3500000.0,16376066.0,LD Entertainment,108.0
+On the Basis of Sex,PG-13,Biography,2018,"January 11, 2019 (United States)",7.1,31000.0,Mimi Leder,Daniel Stiepleman,Felicity Jones,United States,20000000.0,38755900.0,Alibaba Pictures,120.0
+The Catcher Was a Spy,R,Biography,2018,"June 22, 2018 (United States)",6.2,8500.0,Ben Lewin,Robert Rodat,Paul Rudd,United States,14000000.0,953953.0,PalmStar Media,94.0
+Welcome to Marwen,PG-13,Biography,2018,"December 21, 2018 (United States)",6.2,21000.0,Robert Zemeckis,Robert Zemeckis,Steve Carell,Japan,39000000.0,13061491.0,Universal Pictures,116.0
+Assassination Nation,R,Action,2018,"September 21, 2018 (United States)",6.0,17000.0,Sam Levinson,Sam Levinson,Odessa Young,United States,7000000.0,2584988.0,BRON Studios,108.0
+Unfriended: Dark Web,R,Horror,2018,"July 20, 2018 (United States)",6.0,29000.0,Stephen Susco,Stephen Susco,Colin Woodell,United States,1000000.0,16024987.0,Bazelevs Production,92.0
+The Nutcracker and the Four Realms,PG,Adventure,2018,"November 2, 2018 (United States)",5.6,30000.0,Lasse Hallström,Ashleigh Powell,Mackenzie Foy,United States,120000000.0,173961069.0,Walt Disney Pictures,99.0
+The Happytime Murders,R,Action,2018,"August 24, 2018 (United States)",5.4,26000.0,Brian Henson,Todd Berger,Melissa McCarthy,United States,40000000.0,27506452.0,STX Entertainment,91.0
+Tully,R,Comedy,2018,"May 4, 2018 (United States)",7.0,55000.0,Jason Reitman,Diablo Cody,Charlize Theron,United States,13000000.0,15636462.0,BRON Studios,95.0
+Night School,PG-13,Comedy,2018,"September 28, 2018 (United States)",5.6,38000.0,Malcolm D. Lee,Kevin Hart,Kevin Hart,United States,29000000.0,103105878.0,Hartbeat Productions,111.0
+Smallfoot,PG,Animation,2018,"September 28, 2018 (United States)",6.6,36000.0,Karey Kirkpatrick,Karey Kirkpatrick,Channing Tatum,United States,80000000.0,214040103.0,Warner Animation Group,96.0
+Hell Fest,R,Horror,2018,"September 28, 2018 (United States)",5.5,15000.0,Gregory Plotkin,Seth M. Sherwood,Cynthea Mercado,United States,5500000.0,18160930.0,CBS Films,89.0
+Second Act,PG-13,Comedy,2018,"December 21, 2018 (United States)",5.8,24000.0,Peter Segal,Justin Zackham,Jennifer Lopez,United States,16000000.0,72294066.0,Huayi Brothers,103.0
+Uncle Drew,PG-13,Comedy,2018,"June 29, 2018 (United States)",5.8,13000.0,Charles Stone III,Jay Longino,Kyrie Irving,United States,19000000.0,46664414.0,Summit Entertainment,103.0
+The Possession of Hannah Grace,R,Horror,2018,"November 30, 2018 (United States)",5.2,20000.0,Diederik Van Rooijen,Brian Sieve,Shay Mitchell,United States,7700000.0,43016528.0,Screen Gems,86.0
+If Beale Street Could Talk,R,Drama,2018,"December 25, 2018 (United States)",7.1,45000.0,Barry Jenkins,Barry Jenkins,KiKi Layne,United States,12000000.0,20596567.0,Annapurna Pictures,119.0
+The Grinch,PG,Animation,2018,"November 9, 2018 (United States)",6.3,58000.0,Yarrow Cheney,Michael LeSieur,Benedict Cumberbatch,France,75000000.0,512492755.0,Universal Pictures,85.0
+Winchester,PG-13,Biography,2018,"February 2, 2018 (United States)",5.5,32000.0,Michael Spierig,Tom Vaughan,Helen Mirren,Australia,3500000.0,44019588.0,CBS Films,99.0
+The 15:17 to Paris,PG-13,Biography,2018,"February 9, 2018 (United States)",5.3,30000.0,Clint Eastwood,Dorothy Blyskal,Alek Skarlatos,United States,30000000.0,57076286.0,Warner Bros.,94.0
+Action Point,R,Comedy,2018,"June 1, 2018 (United States)",5.1,11000.0,Tim Kirkby,John Altschuler,Johnny Knoxville,United States,19000000.0,5103663.0,Paramount Pictures,85.0
+Super Troopers 2,R,Comedy,2018,"April 20, 2018 (United States)",6.1,25000.0,Jay Chandrasekhar,Jay Chandrasekhar,Jay Chandrasekhar,United States,13500000.0,31626386.0,Votiv Films,99.0
+The Death & Life of John F. Donovan,R,Drama,2018,"December 13, 2019 (United States)",6.2,5900.0,Xavier Dolan,Xavier Dolan,Kit Harington,Canada,35000000.0,3326364.0,Lyla Films,123.0
+Stan & Ollie,PG,Biography,2018,"January 11, 2019 (United Kingdom)",7.2,34000.0,Jon S. Baird,Jeff Pope,Steve Coogan,United Kingdom,10000000.0,24420923.0,Entertainment One,98.0
+SuperFly,R,Action,2018,"June 13, 2018 (United States)",5.2,6500.0,Director X.,Alex Tse,Trevor Jackson,United States,16000000.0,20780685.0,Columbia Pictures,116.0
+Early Man,PG,Animation,2018,"February 16, 2018 (United States)",6.1,21000.0,Nick Park,Mark Burton,Eddie Redmayne,France,50000000.0,54622814.0,Summit Entertainment,89.0
+I Can Only Imagine,PG,Biography,2018,"March 16, 2018 (United States)",7.3,15000.0,Andrew Erwin,Bart Millard,J. Michael Finley,United States,7000000.0,86086881.0,Kevin Downes Productions,110.0
+Dragon Ball Super: Broly,PG,Animation,2018,"January 16, 2019 (United States)",7.8,24000.0,Tatsuya Nagamine,Akira Toriyama,Masako Nozawa,Japan,8500000.0,115757940.0,Toei Company,100.0
+Kin,PG-13,Action,2018,"August 31, 2018 (United States)",5.8,16000.0,Jonathan Baker,Jonathan Baker,Myles Truitt,United States,30000000.0,10313019.0,Summit Entertainment,102.0
+Goosebumps 2: Haunted Halloween,PG,Animation,2018,"October 12, 2018 (United States)",5.6,19000.0,Ari Sandel,Rob Lieber,Wendi McLendon-Covey,United States,35000000.0,93320380.0,Sony Pictures Animation,90.0
+Nobody's Fool,R,Comedy,2018,"November 2, 2018 (United States)",4.9,7000.0,Tyler Perry,Tyler Perry,Tiffany Haddish,United States,19000000.0,33705333.0,BET Films,110.0
