@@ -7,8 +7,8 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Notebook artifacts
-notebooks/artifacts/pretrained_finetune/checkpoints/
-notebooks/artifacts/pretrained_finetune/results/
+notebooks/artifacts/pretrained_finetune/*
+notebooks/artifacts/seperated_vs_shared_encoding/*
 
 # IDE
 .vscode/
