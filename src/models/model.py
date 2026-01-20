@@ -24,6 +24,7 @@ class TabularRegressor(nn.Module):
         encoder_hidden=(128, 64),
         head_hidden=(),
         dropout=0.1,
+        output_dim: int = 1,
     ):
         super().__init__()
         self.mode = mode
@@ -46,7 +47,12 @@ class TabularRegressor(nn.Module):
         else:
             raise ValueError("mode must be 'shared' or 'separate'")
 
-        self.head = RegressionHead(enc_out_dim, hidden_dims=head_hidden, dropout=dropout)
+        self.head = RegressionHead(
+            enc_out_dim,
+            hidden_dims=head_hidden,
+            dropout=dropout,
+            output_dim=output_dim,
+        )
 
     def forward(self, x: torch.Tensor | Tuple[torch.Tensor, torch.Tensor]) -> torch.Tensor:
         if self.mode == "shared":

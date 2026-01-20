@@ -100,7 +100,9 @@ class DoRALinear(nn.Module):
 
         self.lora_A = nn.Parameter(torch.randn(rank, in_features, device=weight.device, dtype=weight.dtype) * 0.01)
         self.lora_B = nn.Parameter(torch.zeros(out_features, rank, device=weight.device, dtype=weight.dtype))
-        self.dora_scale = nn.Parameter(torch.ones(out_features, device=weight.device, dtype=weight.dtype))
+        # Initialize scale to match pretrained weight norms so w_dora == weight at init.
+        init_scale = torch.norm(weight, dim=1).clamp_min(self.eps)
+        self.dora_scale = nn.Parameter(init_scale)
 
     @classmethod
     def from_linear(
