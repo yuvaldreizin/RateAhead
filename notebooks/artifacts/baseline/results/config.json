@@ -4,16 +4,32 @@
   "num_dim": null,
   "cat_dim": null,
   "encoder_hidden": [
+    512,
     256,
     128,
     64
   ],
   "head_hidden": [],
   "dropout": 0.1,
-  "lr": 0.001,
+  "lr": 0.003,
   "epochs": 200,
   "batch_size": 256,
   "device": "cpu",
   "freeze_encoder_epochs": 0,
+  "weight_decay": 0.0001,
+  "early_stop": {
+    "patience": 25,
+    "min_delta": 0.0,
+    "restore_best": true
+  },
+  "scheduler": {
+    "enabled": true,
+    "mode": "min",
+    "factor": 0.5,
+    "patience": 8,
+    "min_lr": 1e-06,
+    "threshold": 0.0001
+  },
+  "seed": 0,
   "artifact_root": "c:\\Users\\ydreizin\\OneDrive - NVIDIA Corporation\\Documents\\Technion\\RateAhead\\notebooks\\artifacts\\baseline"
 }

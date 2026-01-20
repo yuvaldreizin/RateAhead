@@ -1,8 +1,12 @@
-# RateAhead — Movie Gross Prediction PoC
+# RateAhead — Movie Gross Prediction
 
-## What this repo shows
-- Data quality EDA on the Kaggle Movie Industry dataset.
-- A quick PyTorch PoC to confirm the data is learnable for predicting `gross` (target is `log1p(gross)`), with stable, converging loss curves.
+## Concept
+Predict a movie's box-office gross from its metadata and production features
+(`budget`, `votes`, `runtime`, `year`, plus categorical fields like `genre`,
+`director`, `writer`, `star`, `country`, `company`). The target is modeled as
+`log1p(gross)` to stabilize scale and training.
+
+The dataset is the Kaggle Movie Industry CSV (`data/raw/movies.csv`).
 
 ## Workflow (current)
 1) EDA (`notebooks/01_data_quality_eda.ipynb`)
@@ -15,17 +19,41 @@
    - Model: tiny MLP (128-ReLU-Dropout0.1 → 64-ReLU → 1), MSE loss, Adam lr=1e-3, 50 epochs, batch 64.
    - Signal: train/val MSE/MAE decrease and level off; val MAE ≈ 0.72 log space (~$80M) with visible convergence in the loss plots.
 
-## Structure
-- `notebooks/`
-  - `01_data_quality_eda.ipynb` — EDA and data quality decisions.
-  - `02_baseline_torch_poc.ipynb` — filtering, encoding, and the overfit Torch baseline on `log1p(gross)`.
-  - `03_feature_analysis.ipynb` — placeholder for future analysis.
-- `src/` — stubs for data/model/utils (to be filled).
-- `experiments/` — config placeholders (TBD).
-- `data/raw/movies.csv` — source dataset (Kaggle Movie Industry).
-- `docs/process.md` — step-by-step data filters, transforms, model, and PoC signals.
+## Notebooks (03+)
+- `notebooks/03_baseline_model.ipynb` — main tabular baseline using shared
+  preprocessing + model helpers in `src/`. Loads the processed splits, builds
+  feature matrices, trains the entity-embedding MLP, and writes artifacts to
+  `notebooks/artifacts/baseline/` (loss curves, metrics, predictions, checkpoints).
+- `notebooks/04_hl_gauss_compare.ipynb` — compares standard MSE regression to
+  HL-Gauss regression-as-classification. Trains HL-Gauss models over a small
+  `(num_bins, sigma_ratio)` sweep, selects by val MSE, and produces side-by-side
+  plots/metrics in `notebooks/artifacts/hl_gauss/`.
+- `notebooks/05_seperated_vs_shared_encoding.ipynb` — evaluates shared encoding
+  vs feature-group-specific encoders (financial/creative/metadata). Keeps the
+  architecture fixed, compares training histories and test metrics, and stores
+  results under `notebooks/artifacts/seperated_vs_shared_encoding/`.
+- `notebooks/06_Mixture_Of_Experts.ipynb` — hierarchical mixture-of-experts
+  model with a 3x5 gating/expert tree. Logs routing diagnostics and specialization
+  stats; artifacts live under `notebooks/artifacts/hme_3x5/`.
+- `notebooks/07_pretrained_finetune.ipynb` — scaffold for pretrain (<=2004)
+  → zero-shot yearly eval → finetune experiments. Defines the data split logic
+  and helper stubs for full finetune vs head-only/adapters.
 
-## Setup (Python venv)
+## Structure
+- `notebooks/` — experiments and analysis notebooks.
+- `src/` — reusable data prep, models, training, and utils.
+- `experiments/` — YAML configs for experiment variants.
+- `data/raw/movies.csv` — source dataset (Kaggle Movie Industry).
+- `docs/process.md` — step-by-step data filters, transforms, model, and signals.
+
+## Environment setup
+### Option A: Conda (recommended)
+```bash
+conda env create -f environment.yml
+conda activate rateahead
+```
+
+### Option B: Python venv
 ```bash
 python -m venv .venv
 # Windows
