@@ -1,0 +1,6 @@
+{
+  "num_experts": 2,
+  "tau": 12.5,
+  "entropy_weight": 2000.0,
+  "lambda_balance": 10.0
+}
