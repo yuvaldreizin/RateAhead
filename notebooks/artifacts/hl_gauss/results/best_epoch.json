@@ -1,5 +1,0 @@
-{
-  "epoch": 44,
-  "val_mse": 1.0298410207033157,
-  "monitor": "val_mse"
-}
