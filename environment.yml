@@ -1,0 +1,17 @@
+name: rateahead
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - matplotlib
+      - seaborn
+      - jupyter
+      - torch
+      - tqdm
+      - pyyaml
+      - wandb
