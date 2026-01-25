@@ -17,7 +17,7 @@ Industry CSV at `data/raw/movies.csv`.
 - `notebooks/` — experiment notebooks:
   - `01_data_quality_eda.ipynb` — schema, missingness, target coverage.
   - `02_baseline_torch_poc.ipynb` — first Torch baseline end-to-end.
-  - `03_baseline_model.ipynb` — baseline using reusable `src/` helpers.
+  - `03_baseline_model.ipynb` — determines baseline model using grid search over hyperparameters.
   - `04_seperated_vs_shared_encoding.ipynb` — shared vs split encoders.
   - `05_pretrained_finetune.ipynb` — pretrain → zero-shot by year → finetune.
 - `notebooks/artifacts/` — plots, metrics, checkpoints, and predictions from notebooks.
@@ -25,10 +25,10 @@ Industry CSV at `data/raw/movies.csv`.
   - `src/data/` — constants, filtering/splitting, feature encoding.
   - `src/models/` — encoders, heads, training loop, and tabular regressor.
   - `src/utils/` — checkpoints, metrics, plotting.
-- `artifacts/` — example baseline outputs (loss curves, metrics, checkpoints).
+
 
 ## Environment setup
-### Option A: Conda (recommended)
+### Option A: Conda
 ```bash
 conda env create -f environment.yml
 conda activate rateahead
@@ -40,22 +40,19 @@ python -m venv .venv
 # Windows
 .venv\Scripts\activate
 # macOS/Linux
-# source .venv/bin/activate
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
-
-Place the Kaggle CSV at `data/raw/movies.csv`.
 
 ## Project workflow
 The baseline pipeline is implemented in `src/data/` and `src/models/`:
 - Filtering: keep rows with required numeric/target values.
-- Categorical prep: fill missing values with `Unknown`, group rare categories to
+- Categorical prep: remove samples with missing values, group rare categories to
   `Other`, then frequency-encode using train data only.
-- Numeric prep: `log1p` selected columns, median impute missing values, and
-  standardize numeric features.
+- Numeric prep: `log1p` selected columns and standardize numeric features.
 - Modeling: MLP regressor with shared or separate encoders for numeric vs
-  categorical features (see `src/models/model.py`).
-- Training: PyTorch loop with MSE loss (or optional HL-Gauss via config), tracked
+  categorical features.
+- Training: PyTorch loop with MSE loss, tracked
   by val metrics and best-epoch checkpointing.
 
 ## Main experiments (notebooks 4 & 5)
