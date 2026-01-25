@@ -1,87 +1,152 @@
-# RateAhead — Movie Gross Prediction
+# GrossAhead — Movie Gross Prediction
 
 ## Project summary
-RateAhead explores predicting a movie's box-office gross from metadata and production
-features (`budget`, `votes`, `runtime`, `year`, plus categorical fields like
-`genre`, `director`, `writer`, `star`, `country`, `company`). The target is modeled
-as `log1p(gross)` to stabilize scale and training. The dataset is the Kaggle Movie
-Industry CSV at `data/raw/movies.csv`.
+
+GrossAhead explores predicting a movie’s box-office gross from production and
+metadata features, including numeric attributes (budget, votes, runtime, year)
+and categorical fields (genre, director, writer, star, country, company).
+
+The target is modeled as log1p(gross) to stabilize scale and improve training.
+
+The dataset is the Kaggle Movie Industry CSV located at
+data/raw/movies.csv.
+
+---
 
 ## Repo structure
-- `data/raw/` — raw Kaggle CSV (`movies.csv`).
-- `data/processed/` — deterministic splits and experiment-specific subsets:
-  - `all_features/` — default train/val/test CSVs written by
-    `python -m src.data.load_data`.
-  - `up_to_2005/` — pretrain split (train/val/test up to 2005).
-  - `from_2005/` — post-2005 split and per-year CSVs under `by_year/`.
-- `notebooks/` — experiment notebooks:
-  - `01_data_quality_eda.ipynb` — schema, missingness, target coverage.
-  - `02_baseline_torch_poc.ipynb` — first Torch baseline end-to-end.
-  - `03_baseline_model.ipynb` — determines baseline model using grid search over hyperparameters.
-  - `04_seperated_vs_shared_encoding.ipynb` — shared vs split encoders.
-  - `05_pretrained_finetune.ipynb` — pretrain → zero-shot by year → finetune.
-- `notebooks/artifacts/` — plots, metrics, checkpoints, and predictions from notebooks.
-- `src/` — reusable code:
-  - `src/data/` — constants, filtering/splitting, feature encoding.
-  - `src/models/` — encoders, heads, training loop, and tabular regressor.
-  - `src/utils/` — checkpoints, metrics, plotting.
 
+data/raw/
+Raw Kaggle CSV (movies.csv)
+
+data/processed/
+Deterministic splits and experiment-specific subsets
+• all_features/ — default train/val/test CSVs
+• up_to_2005/ — pretraining split (movies released up to 2005)
+• from_2005/ — post-2005 split with per-year evaluation buckets
+
+notebooks/
+01_data_quality_eda.ipynb — schema inspection, missingness, target coverage
+02_baseline_torch_poc.ipynb — end-to-end PyTorch baseline
+03_baseline_model.ipynb — hyperparameter grid search
+04_separated_vs_shared_encoding.ipynb — shared vs separated encoders
+05_pretrained_finetune.ipynb — pretraining, zero-shot, finetuning
+
+notebooks/artifacts/
+Plots, metrics, checkpoints, and prediction files
+
+src/
+data/ — filtering, splitting, feature encoding
+models/ — encoders, heads, training loop, regressor
+utils/ — metrics, checkpointing, plotting
+
+---
 
 ## Environment setup
+
 ### Option A: Conda
-```bash
+
+```
 conda env create -f environment.yml
 conda activate rateahead
 ```
 
-### Option B: Python venv
-```bash
+### Option B: Python virtual environment
+
+```
 python -m venv .venv
-# Windows
+```
+
+Windows:
+```
 .venv\Scripts\activate
-# macOS/Linux
+```
+
+macOS / Linux:
+```
 source .venv/bin/activate
+```
+
+```
 pip install -r requirements.txt
 ```
 
-## Project workflow
-The baseline pipeline is implemented in `src/data/` and `src/models/`:
-- Filtering: keep rows with required numeric/target values.
-- Categorical prep: remove samples with missing values, group rare categories to
-  `Other`, then frequency-encode using train data only.
-- Numeric prep: `log1p` selected columns and standardize numeric features.
-- Modeling: MLP regressor with shared or separate encoders for numeric vs
-  categorical features.
-- Training: PyTorch loop with MSE loss, tracked
-  by val metrics and best-epoch checkpointing.
+---
 
-## Main experiments (notebooks 4 & 5)
-### `04_seperated_vs_shared_encoding.ipynb`
-Compares a single shared encoder against feature-group-specific encoders for
-financial, creative, and metadata features. The experiment keeps the training
-loop and head fixed, then measures how representation sharing affects validation
-loss and test metrics. Outputs include per-model training histories, prediction
-files, and summary tables under `notebooks/artifacts/seperated_vs_shared_encoding/`.
+## Modeling pipeline (overview)
 
-### `05_pretrained_finetune.ipynb`
-Pretrains on movies up to 2005, evaluates zero-shot generalization on yearly
-buckets after 2005, then runs finetune variants (full-model, head-only, or
-adapter-based) to quantify data-efficiency. Results include per-run metrics,
-zero-shot error vs year plots, and aggregate summaries in
-`notebooks/artifacts/pretrained_finetune/`.
+The project follows a standard tabular machine learning pipeline:
+
+- Data preparation  
+Rows with missing required values are filtered out. Rare categorical values are
+grouped into an Other category. Categorical features are frequency-encoded using
+statistics fit on the training split only.
+
+- Feature processing  
+Selected numeric features and the target variable are transformed using log1p,
+followed by standardization.
+
+- Modeling  
+A multilayer perceptron regressor is used, with either a single shared encoder or
+separate encoders for numeric and categorical feature groups.
+
+- Training and evaluation  
+Models are trained in PyTorch using MSE loss, with validation-based checkpointing
+and evaluation on held-out test sets.
+
+Implementation details live in src/, while experiments are conducted via notebooks.
+
+---
+
+## Main experiments
+
+04_separated_vs_shared_encoding.ipynb
+
+Compares a single shared encoder against feature-group-specific encoders
+(financial, creative, metadata). The training loop and prediction head are kept
+fixed to isolate representation effects.
+
+Outputs are saved under
+notebooks/artifacts/separated_vs_shared_encoding/
+
+05_pretrained_finetune.ipynb
+
+Pretrains a model on movies released up to 2005, evaluates zero-shot
+generalization on yearly buckets after 2005, and applies finetuning variants
+(full-model, head-only, adapter-based) to study data efficiency.
+
+Results are saved under
+notebooks/artifacts/pretrained_finetune/
+
+---
 
 ## Data splits (deterministic)
-Generate the default train/val/test CSVs under `data/processed/all_features/`:
-```bash
+
+Default train/validation/test splits are generated under
+data/processed/all_features/ using:
+
+```
 python -m src.data.load_data
 ```
-This uses a fixed seed and 70/15/15 split. Precomputed splits and year buckets
-for the pretrain/finetune notebook live under `data/processed/up_to_2005/` and
-`data/processed/from_2005/`.
+
+All splits use a fixed random seed. Precomputed pretraining splits and post-2005
+yearly evaluation buckets are provided under data/processed/up_to_2005/ and
+data/processed/from_2005/.
+
+---
 
 ## Running notebooks
-1) Activate the environment.
-2) Open a notebook under `notebooks/` and run all cells.
 
-The baseline “works as expected” signal is the loss curve and metrics produced by
-`notebooks/02_baseline_torch_poc.ipynb` and `notebooks/03_baseline_model.ipynb`.
+1. Activate the environment
+2. Open a notebook under notebooks/
+3. Run all cells sequentially
+
+A correct setup produces stable loss curves and reasonable metrics in
+03_baseline_model.ipynb.
+
+---
+
+## Notes
+
+This repository is structured for reproducible experimentation and clear
+comparison between modeling choices. All reported results are generated directly
+from the notebooks and saved under notebooks/artifacts/.
