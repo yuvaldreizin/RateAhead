@@ -1,0 +1,21 @@
+{
+  "full_finetune": {
+    "lr": 0.0003
+  },
+  "gradual_unfreeze": {
+    "lr": 0.001
+  },
+  "head_only": {
+    "lr": 0.001
+  },
+  "lora": {
+    "lr": 0.001,
+    "rank": 8,
+    "alpha": 8.0
+  },
+  "dora": {
+    "lr": 0.001,
+    "rank": 4,
+    "alpha": 4.0
+  }
+}

@@ -6,8 +6,6 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Notebook artifacts
-notebooks/artifacts/pretrained_finetune/*
 
 # IDE
 .cursor/
