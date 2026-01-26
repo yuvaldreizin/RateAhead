@@ -22,10 +22,9 @@ The dataset is the Kaggle Movie Industry CSV located at
   - `from_2005/` — post-2005 split with per-year evaluation buckets
 - `notebooks/` — experiments and analysis
   - `01_data_quality_eda.ipynb` — schema inspection, missingness, target coverage
-  - `02_baseline_torch_poc.ipynb` — end-to-end PyTorch baseline
-  - `03_baseline_model.ipynb` — hyperparameter grid search
-  - `04_separated_vs_shared_encoding.ipynb` — shared vs separated encoders
-  - `05_pretrained_finetune.ipynb` — pretraining, zero-shot, finetuning
+  - `02_baseline_model.ipynb` — baseline model selection (includes hyperparameter grid search)
+  - `03_seperated_vs_shared_encoding.ipynb` — shared vs separated encoders
+  - `04_pretrained_finetune.ipynb` — pretraining, zero-shot, finetuning
 - `notebooks/artifacts/` — plots, metrics, checkpoints, and prediction files
 - `src/` — core library code
   - `data/` — filtering, splitting, feature encoding
@@ -92,12 +91,12 @@ Implementation details live in `src/`, while experiments are conducted via `note
 
 ## Main experiments
 
-- `04_separated_vs_shared_encoding.ipynb` — compares a single shared encoder
+- `03_seperated_vs_shared_encoding.ipynb` — compares a single shared encoder
   against feature-group-specific encoders (financial, creative, metadata). The
   training loop and prediction head are kept fixed to isolate representation
   effects. Outputs are saved under
-  `notebooks/artifacts/separated_vs_shared_encoding/`.
-- `05_pretrained_finetune.ipynb` — pretrains a model on movies released up to
+  `notebooks/artifacts/seperated_vs_shared_encoding/`.
+- `04_pretrained_finetune.ipynb` — pretrains a model on movies released up to
   2005, evaluates zero-shot generalization on yearly buckets after 2005, and
   applies finetuning variants (full-model, head-only, adapter-based) to study
   data efficiency. Results are saved under
@@ -127,7 +126,7 @@ yearly evaluation buckets are provided under `data/processed/up_to_2005/` and
 3. Run all cells sequentially
 
 A correct setup produces stable loss curves and reasonable metrics in
-`03_baseline_model.ipynb`.
+`02_baseline_model.ipynb`.
 
 ---
 
