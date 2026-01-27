@@ -1,15 +1,25 @@
 # GrossAhead — Movie Gross Prediction
 
-## Project summary
+## Project Overview
 
-GrossAhead explores predicting a movie’s box-office gross from production and
-metadata features, including numeric attributes (budget, votes, runtime, year)
-and categorical fields (genre, director, writer, star, country, company).
+GrossAhead studies prediction of a movie’s box-office gross using only production and metadata features.
+Inputs combine numeric attributes (budget, votes, runtime, release year) and categorical fields (genre, director, writer, star, company, country).
 
-The target is modeled as `log1p(gross)` to stabilize scale and improve training.
+Beyond prediction accuracy, the project is designed as a controlled study of representation learning and adaptation for tabular data.
 
-The dataset is the Kaggle Movie Industry CSV located at
-`data/raw/movies.csv`.
+### Research Questions
+
+1. Does semantic feature grouping help?
+We compare a fully shared baseline against models that introduce structure by grouping features (e.g., financial, creative, temporal) and performing feature ablations, to assess whether semantic inductive bias improves generalization.
+
+2. How do fine-tuning strategies behave under temporal shift?
+Models are pretrained on pre-2005 data and fine-tuned on post-2005 movies. We compare full fine-tuning, head-only training, gradual unfreezing, and parameter-efficient methods (LoRA, DoRA) under a fixed optimization budget, focusing on cost–performance trade-offs.
+
+### 🔗 Project Links
+
+📄 **Full Report** | 🎥 **Presentation Video**  
+[Read the Report](https://technionmail-my.sharepoint.com/:b:/g/personal/yuvaldreizin_campus_technion_ac_il/IQDypq9iCq_-QYglx4VJPdB7AbDCftK9SIllhR6OBU8V8Z4?e=KQdMN3)  
+[Watch the Presentation](https://www.youtube.com/watch?v=XlzKDcFw71I)
 
 ---
 
